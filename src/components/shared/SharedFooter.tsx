@@ -1,62 +1,81 @@
-import React from 'react';
-import { Link } from 'react-router-dom'
+import { Grid, Paper, Typography } from '@material-ui/core/';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
-import { AppBar, Toolbar, Button, IconButton, Box } from '@material-ui/core/';
-import logo from 'assets/images/SMIF-Logo-v4.png';
-import MenuIcon from '@material-ui/icons/Menu';
+import React from 'react';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
-    root: {
-      flexGrow: 1,
-      width: 'auto'
-    },
-    menuButton: {
-      marginRight: theme.spacing(2),
+    paper: {
+      padding: '50px 80px 50px 80px',
+      marginBottom: 0
     },
     title: {
-      flexGrow: 1,
+      color: '#153587'
     },
-    button: {
-      marginRight: 0,
-      textTransform: 'none',
+    text: {
+      color: '#696969'
     },
-    link: {
-      textDecoration: 'none',
-      color: 'inherit'
+    hr: {
+      height: '1px',
+      border: 'none',
+      color: '#eee',
+      backgroundColor: '#eee'
+    },
+    copyright: {
+      padding: '20px 80px 30px 80px',
+      marginBottom: 0
     }
-  }),
+  })
 );
 
-export default function ButtonAppBar() {
+const SharedFooter: React.FC = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="Menu">
-            <MenuIcon />
-          </IconButton>
-          <img src={logo} height='60'/>
-          <div className={classes.title}/>
-          <Link className={classes.link} to='/'>
-            <Button color="inherit" className={classes.button}>Home</Button>
-          </Link>
-          <Link className={classes.link} to='/about'>
-            <Button color="inherit" className={classes.button}>About</Button>
-          </Link>
-          <Link className={classes.link} to='/investments'>
-            <Button color="inherit" className={classes.button}>Investments</Button>
-          </Link>
-          <Link className={classes.link} to='/achievements'>
-            <Button color="inherit" className={classes.button}>Achievements</Button>
-          </Link>
-          <Link className={classes.link} to='/contact'>
-            <Button color="inherit" className={classes.button}>Contact</Button>
-          </Link>
-        </Toolbar>
-      </AppBar>
-    </div>
+    <Paper elevation={1}>
+      <Grid container className={classes.paper} spacing={4}>
+        <Grid item xs={12} md={3}>
+          <Typography variant='h6' className={classes.title}>
+            {'About Us'}
+          </Typography>
+          <br />
+          <Typography variant='body2' className={classes.text}>
+            The Singapore Management University Student Managed Investment Fund
+            (SMU-SMIF) is Singapore's first investment fund to be managed
+            directly by undergraduates
+          </Typography>
+        </Grid>
+        <Grid item xs={12} md={3}>
+          <Typography variant='h6' className={classes.title}>
+            {'Our Mission'}
+          </Typography>
+          <br />
+          <Typography variant='body2' className={classes.text}>
+            To be the premier student-managed investment fund, globally
+            recognised for excellence in investment analysis and portfolio
+            management. We offer an unparalleled opportunity to develop their
+            skills in a professional setting, thereby ensuring that they can
+            break into the industry with a coveted edge.
+          </Typography>
+        </Grid>
+        <Grid item xs={12} md={3}>
+          <Typography variant='h6' className={classes.title}>
+            {'Our Values'}
+          </Typography>
+        </Grid>
+        <Grid item xs={12} md={3}>
+          <Typography variant='h6' className={classes.title}>
+            {'Sector Coverage'}
+          </Typography>
+        </Grid>
+      </Grid>
+      <hr className={classes.hr} />
+      <Grid className={classes.copyright}>
+        <Typography variant='body2' className={classes.text}>
+          Copyright © 2018 SMU-SMIF
+        </Typography>
+      </Grid>
+    </Paper>
   );
-}
+};
+
+export default SharedFooter;

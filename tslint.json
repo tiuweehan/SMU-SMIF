@@ -1,0 +1,23 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-react", "tslint-sonarts"],
+  "linterOptions": {
+    "exclude": ["app/assets/**", "node_modules/**", "public/**", "src/serviceWorker.ts"]
+  },
+  "rules": {
+    "indent": [true, "spaces", 2],
+    "interface-name": false,
+    "jsx-alignment": false,
+    "jsx-boolean-value": [true, "never"],
+    "jsx-no-lambda": false,
+    "jsx-no-multiline-js": false,
+    "jsx-wrap-multiline": false,
+    "max-classes-per-file": false,
+    "no-big-function": false,
+    "no-duplicate-string": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "quotemark": [true, "single"],
+    "trailing-comma": false
+  }
+}
