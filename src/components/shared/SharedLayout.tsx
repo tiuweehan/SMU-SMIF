@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme: Theme) =>
     }),
     title: {
       color: '#FFF',
-      fontSize: '38px',
+      fontSize: '45px',
       fontWeight: 700,
       fontFamily: 'Arial, Arial, Tahoma, sans-serif'
     },
@@ -50,7 +50,6 @@ const useStyles = makeStyles((theme: Theme) =>
       zIndex: 2
     }),
     contentContainer: ({ middle }: Props) => ({
-      backgroundColor: 'red',
       position: 'relative',
       width: '84%',
       left: '8%',

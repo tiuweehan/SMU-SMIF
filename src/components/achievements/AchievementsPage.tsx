@@ -1,7 +1,34 @@
 import React from 'react';
+import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
+import { Grid, Paper } from '@material-ui/core';
+import SharedLayout from 'components/shared/SharedLayout';
+import AchievementsBackground from 'assets/images/Achievements.jpg';
+
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    contentContainer: {}
+  })
+);
 
 const AchievementsPage: React.FC = () => {
-  return <div> Achievements Page </div>;
+  return (
+    <SharedLayout
+      deep={{
+        backgroundImage: AchievementsBackground,
+        backgroundHeight: '490px',
+        backgroundVerticalScale: '350px',
+        parallaxStrength: 800,
+        title: 'Achievements'
+      }}
+      middle={{
+        bufferColor: '#F2F3F5',
+        verticalTranslate: '-40px',
+        paddingBottom: '10px'
+      }}
+    >
+      <div style={{ height: '600px' }} />
+    </SharedLayout>
+  );
 };
 
 export default AchievementsPage;

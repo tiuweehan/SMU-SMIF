@@ -11,7 +11,6 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 const InvestmentsPage: React.FC = () => {
-
   return (
     <SharedLayout
       deep={{
