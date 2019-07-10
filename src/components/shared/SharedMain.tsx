@@ -6,21 +6,10 @@ import SharedFooter from './SharedFooter';
 
 type Props = RouteComponentProps;
 
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    buffer: {
-      height: '60px'
-    }
-  })
-);
-
 const SharedMain: React.FC<Props> = (props) => {
-  const classes = useStyles();
-
   return (
     <React.Fragment>
       <SharedNavbar />
-      <div className={classes.buffer} />
       {props.children}
       <SharedFooter />
     </React.Fragment>
