@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const SharedMain: React.FC<Props> = props => {
+const SharedMain: React.FC<Props> = (props) => {
   const classes = useStyles();
 
   return (

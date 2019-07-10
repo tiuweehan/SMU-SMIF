@@ -21,11 +21,11 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     aboutUs: {
       width: '100%',
-      height: '100%',
+      height: '100%'
     },
     whiteText: {
       color: 'white',
-      font: 'Arial Arial Tahoma sans-serif',
+      font: 'Arial Arial Tahoma sans-serif'
     },
     missionAndStory: {
       width: '100%',
@@ -52,7 +52,9 @@ const AboutPage: React.FC = () => {
         <img className={classes.aspectRatio} src={BackgroundPicture} />
         <div className={classes.content}>
           <Grid container className={classes.aboutUs} justify='center' alignContent='center'>
-            <Typography variant='h2' className={classes.whiteText}>About Us</Typography>
+            <Typography variant='h2' className={classes.whiteText}>
+              About Us
+            </Typography>
           </Grid>
         </div>
       </div>
@@ -61,13 +63,20 @@ const AboutPage: React.FC = () => {
         <div className={classes.content}>
           <Grid container className={classes.missionAndStory} justify='center' alignContent='center'>
             <Paper className={classes.paper} elevation={0}>
-              <Grid container justify='center' alignContent='center'>
-                <Typography variant='h3' className={classes.title}>
-                  Our Mission
-                </Typography>
-                <Box textAlign='center'>
-                  To be the premier student-managed investment fund, globally recognised for excellence in investment analysis and portfolio management. We offer members an unparalleled opportunity to develop their skills in a professional setting, thereby ensuring that they can break into the industry with a coveted edge.
-                </Box>
+              <Grid container justify='center' alignContent='center' spacing={2}>
+                <Grid item>
+                  <Typography variant='h3' className={classes.title}>
+                    Our Mission
+                  </Typography>
+                </Grid>
+                <Grid item>
+                  <Box textAlign='center'>
+                    To be the premier student-managed investment fund, globally recognised for excellence in investment
+                    analysis and portfolio management. We offer members an unparalleled opportunity to develop their
+                    skills in a professional setting, thereby ensuring that they can break into the industry with a
+                    coveted edge.
+                  </Box>
+                </Grid>
               </Grid>
             </Paper>
           </Grid>

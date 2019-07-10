@@ -12,8 +12,7 @@ const useStyles = makeStyles((theme: Theme) =>
       height: '100%'
     },
     textbox: {
-      background:
-        'repeating-linear-gradient(45deg,#FFFFFF,#EEEEEE 5px,#FFFFFF 5px,#EEEEEE 10px);',
+      background: 'repeating-linear-gradient(45deg,#FFFFFF,#EEEEEE 5px,#FFFFFF 5px,#EEEEEE 10px);',
       height: '100%',
       padding: '80px'
     },
@@ -33,20 +32,9 @@ const HomePage: React.FC = () => {
     <div className={classes.root}>
       <Grid container className={classes.container}>
         <Grid item xs={4}>
-          <Grid
-            container
-            className={classes.textbox}
-            justify='center'
-            alignContent='center'
-          >
-            <Box
-              fontSize='h4.fontSize'
-              fontWeight='bold'
-              textAlign='center'
-              className={classes.text}
-            >
-              Singapore's first investment fund professionally managed by
-              undergraduates
+          <Grid container className={classes.textbox} justify='center' alignContent='center'>
+            <Box fontSize='h4.fontSize' fontWeight='bold' textAlign='center' className={classes.text}>
+              Singapore's first investment fund professionally managed by undergraduates
             </Box>
           </Grid>
         </Grid>

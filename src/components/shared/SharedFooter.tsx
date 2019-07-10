@@ -39,9 +39,8 @@ const SharedFooter: React.FC = () => {
           </Typography>
           <br />
           <Typography variant='body2' className={classes.text}>
-            The Singapore Management University Student Managed Investment Fund
-            (SMU-SMIF) is Singapore's first investment fund to be managed
-            directly by undergraduates
+            The Singapore Management University Student Managed Investment Fund (SMU-SMIF) is Singapore's first
+            investment fund to be managed directly by undergraduates
           </Typography>
         </Grid>
         <Grid item xs={12} md={3}>
@@ -50,11 +49,9 @@ const SharedFooter: React.FC = () => {
           </Typography>
           <br />
           <Typography variant='body2' className={classes.text}>
-            To be the premier student-managed investment fund, globally
-            recognised for excellence in investment analysis and portfolio
-            management. We offer an unparalleled opportunity to develop their
-            skills in a professional setting, thereby ensuring that they can
-            break into the industry with a coveted edge.
+            To be the premier student-managed investment fund, globally recognised for excellence in investment analysis
+            and portfolio management. We offer an unparalleled opportunity to develop their skills in a professional
+            setting, thereby ensuring that they can break into the industry with a coveted edge.
           </Typography>
         </Grid>
         <Grid item xs={12} md={3}>
