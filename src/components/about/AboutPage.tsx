@@ -1,7 +1,6 @@
 import React from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import { Grid, Box, Typography, Paper } from '@material-ui/core/';
-import BackgroundPicture from 'assets/images/About-Us-Cover-Page-v2.jpg';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -49,7 +48,7 @@ const AboutPage: React.FC = () => {
   return (
     <div>
       <div className={classes.parent}>
-        <img className={classes.aspectRatio} src={BackgroundPicture} />
+        {/* <img className={classes.aspectRatio} src={BackgroundPicture} /> */}
         <div className={classes.content}>
           <Grid container className={classes.aboutUs} justify='center' alignContent='center'>
             <Typography variant='h2' className={classes.whiteText}>
@@ -59,7 +58,7 @@ const AboutPage: React.FC = () => {
         </div>
       </div>
       <div className={classes.parent}>
-        <img className={classes.aspectRatio} src={BackgroundPicture} />
+        {/* <img className={classes.aspectRatio} src={BackgroundPicture} /> */}
         <div className={classes.content}>
           <Grid container className={classes.missionAndStory} justify='center' alignContent='center'>
             <Paper className={classes.paper} elevation={0}>

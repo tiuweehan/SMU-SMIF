@@ -1,0 +1,15 @@
+# Ignore swapfile
+*.swp
+*~
+
+# Ignore javascript compilations & dependencies
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# Ignore Mac OS Desktop Services Store
+.DS_Store
+

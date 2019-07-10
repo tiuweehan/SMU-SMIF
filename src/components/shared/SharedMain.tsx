@@ -1,6 +1,5 @@
 import React from 'react';
 import { RouteComponentProps, withRouter } from 'react-router-dom';
-import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import SharedNavbar from './SharedNavbar';
 import SharedFooter from './SharedFooter';
 
