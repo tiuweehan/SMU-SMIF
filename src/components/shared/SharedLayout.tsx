@@ -33,7 +33,8 @@ const useStyles = makeStyles((theme: Theme) =>
     backgroundImage: ({ deep }: Props) => ({
       position: 'relative',
       top: deep.backgroundVerticalScale,
-      width: '1600px'
+      minHeight: '700px',
+      maxWidth: `${Math.max(1400, window.innerWidth)}px`
     }),
     backgroundHeight: ({ deep }: Props) => ({
       height: deep.backgroundHeight

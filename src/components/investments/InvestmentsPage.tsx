@@ -13,7 +13,7 @@ const InvestmentsPage: React.FC = () => {
   return (
     <SharedLayout
       deep={{
-        backgroundImage: `${process.env.PUBLIC_URL}/assets/images/AboutUs.jpg`,
+        backgroundImage: `${process.env.PUBLIC_URL}/assets/images/Investments.jpg`,
         backgroundHeight: '490px',
         backgroundVerticalScale: '350px',
         parallaxStrength: 800,

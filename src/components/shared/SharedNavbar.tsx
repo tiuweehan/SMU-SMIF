@@ -35,7 +35,7 @@ const SharedNavbar: React.FC = () => {
 
   return (
     <div className={classes.root}>
-      <div style={{ height: '60px', width: '100%' }} />
+      <div style={{ height: '50px', width: '100%' }} />
       <AppBar position='fixed'>
         <Toolbar>
           <img src={`${process.env.PUBLIC_URL}/assets/images/SMIF-Logo-v4.png`} height='45' className={classes.logo} />
