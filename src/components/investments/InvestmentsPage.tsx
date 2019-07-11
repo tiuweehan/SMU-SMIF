@@ -2,7 +2,6 @@ import React from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import { Grid, Paper } from '@material-ui/core';
 import SharedLayout from 'components/shared/SharedLayout';
-import InvestmentsBackground from 'assets/images/Investments.jpg';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -14,7 +13,7 @@ const InvestmentsPage: React.FC = () => {
   return (
     <SharedLayout
       deep={{
-        backgroundImage: InvestmentsBackground,
+        backgroundImage: `${process.env.PUBLIC_URL}/assets/images/AboutUs.jpg`,
         backgroundHeight: '490px',
         backgroundVerticalScale: '350px',
         parallaxStrength: 800,

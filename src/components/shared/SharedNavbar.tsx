@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import { AppBar, Toolbar, Button, IconButton, Box } from '@material-ui/core/';
-import logo from 'assets/images/SMIF-Logo-v4.png';
 import MenuIcon from '@material-ui/icons/Menu';
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -39,7 +38,7 @@ const SharedNavbar: React.FC = () => {
       <div style={{ height: '60px', width: '100%' }} />
       <AppBar position='fixed'>
         <Toolbar>
-          <img src={logo} height='45' className={classes.logo} />
+          <img src={`${process.env.PUBLIC_URL}/assets/images/SMIF-Logo-v4.png`} height='45' className={classes.logo} />
           <div className={classes.title} />
           <Link className={classes.link} to='/'>
             <Button color='inherit' className={classes.button}>

@@ -13,3 +13,5 @@ yarn-debug.log*
 # Ignore Mac OS Desktop Services Store
 .DS_Store
 
+# Ignore VScode configuration
+.vscode

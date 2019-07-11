@@ -1,7 +1,6 @@
 import React from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import { Grid, Box, Typography } from '@material-ui/core/';
-import Slide3 from 'assets/images/Slide-3.jpg';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -20,7 +19,7 @@ const useStyles = makeStyles((theme: Theme) =>
       color: '#153587'
     },
     picture: {
-      backgroundImage: `url(${Slide3})`,
+      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/Slide-3.jpg)`,
       backgroundSize: 'contain'
     }
   })
