@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme: Theme) =>
     backgroundImage: ({ deep }: Props) => ({
       position: 'relative',
       top: deep.backgroundVerticalScale,
-      width: `${window.innerWidth}px`
+      width: '1600px'
     }),
     backgroundHeight: ({ deep }: Props) => ({
       height: deep.backgroundHeight
@@ -68,7 +68,7 @@ const SharedLayout: React.FC<Props> = (props) => {
       <Grid className={classes.deepestLayer}>
         <Parallax strength={props.deep.parallaxStrength}>
           <Background>
-            <img src={props.deep.backgroundImage} className={classes.backgroundImage} />
+            <img src={props.deep.backgroundImage} className={classes.backgroundImage} alt='background' />
           </Background>
           <Grid container className={classes.backgroundHeight} justify='center' alignItems='center'>
             <Grid item className={classes.title}>

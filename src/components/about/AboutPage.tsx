@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme: Theme) =>
     missionBody: {
       color: 'black',
       fontFamily: '"Arial", Arial, Tahoma, sans-serif',
-      fontSize: '18px',
+      fontSize: '16px',
       textAlign: 'center'
     },
     valuesAndStory: {
@@ -25,18 +25,33 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     values: {
       backgroundColor: 'rgb(67, 93, 159)',
-      padding: '35px 35px 35px 35px',
+      padding: '40px 35px 40px 35px',
       height: '100%'
     },
-    valuesTitle: {
+    valuesHeader: {
       color: 'white',
       fontSize: '40px',
       fontWeight: 700
     },
-    valuesBody: {},
+    valuesBody: {
+      padding: '15px 15px 15px 15px',
+      color: '#c7cfe2',
+      fontSize: 14
+    },
     story: {
       backgroundColor: 'white',
+      padding: '40px 40px 40px 40px',
       height: '100%'
+    },
+    storyHeader: {
+      color: '#153587',
+      fontSize: '40px',
+      fontWeight: 700
+    },
+    storyBody: {
+      font: 'inherit',
+      fontSize: 14,
+      color: '#696969'
     }
   })
 );
@@ -75,20 +90,56 @@ const AboutPage: React.FC = () => {
       <Grid container className={classes.valuesAndStory}>
         <Grid item xs={12} md={3}>
           <Grid container className={classes.values}>
-            <Grid item xs={12} className={classes.valuesTitle}>
+            <Grid item xs={12} className={classes.valuesHeader}>
               <Grid container justify='center' alignContent='center'>
                 Our Values
               </Grid>
             </Grid>
-            <Grid item xs={12} className={classes.valuesBody}>
-              <Grid container>
-                <img src={`${process.env.PUBLIC_URL}/assets/images/TickIcon.png`} />
+            <Grid item xs={12}>
+              <Grid container spacing={2} className={classes.valuesBody}>
+                {['Responsibility', 'Commitment', 'Teamwork', 'Excellence', 'Integrity'].map((value) => (
+                  <Grid item xs={12} key={value}>
+                    <Grid container>
+                      <Grid item xs={2}>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/TickIcon.png`} alt='Tick' />
+                      </Grid>
+                      <Grid item xs={10}>
+                        {value}
+                      </Grid>
+                    </Grid>
+                  </Grid>
+                ))}
               </Grid>
             </Grid>
           </Grid>
         </Grid>
         <Grid item xs={12} md={9}>
-          <Grid container className={classes.story}></Grid>
+          <Grid container className={classes.story}>
+            <Grid item xs={12}>
+              <Grid container spacing={2}>
+                <Grid item className={classes.storyHeader}>
+                  Our Story
+                </Grid>
+                <Grid item className={classes.storyBody}>
+                  <Grid>
+                    SMU-SMIF was founded by Mr See Yong Sheng, Mr Ye Junjie Jacky and Mr Poh Wei Jin Gerald in Aug 2005.
+                    The idea for the fund came from the success of similar initiatives in universities overseas.
+                    Believing that no other university in Asia had a similar set-up, the three founders decided to blaze
+                    the trail and started SMU-SMIF.
+                  </Grid>
+                  &nbsp;
+                  <Grid>
+                    SMU-SMIF started with six sector teams, each helmed by one Sector Head and four to five analysts.
+                    The teams were in turn advised by the founders and SMU-SMIF's investment advisory committee. This
+                    high-level committee initially comprised of Assistant Professor Chua Choong Tze and Mr Ng Soo Nam
+                    (CIO of Mirae Asset Management) and Associate Professor Francis Koh.
+                  </Grid>
+                  &nbsp;
+                  <Grid>SMU-SMIF commenced its investment Fund 1 with a mock portfolio in January 2006. [ ]</Grid>
+                </Grid>
+              </Grid>
+            </Grid>
+          </Grid>
         </Grid>
       </Grid>
     </SharedLayout>
