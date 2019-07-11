@@ -51,13 +51,15 @@ const useStyles = makeStyles((theme: Theme) =>
     storyBody: {
       font: 'inherit',
       fontSize: 14,
-      color: '#696969'
+      color: '#696969',
+      textAlign: 'justify'
     }
   })
 );
 
 const AboutPage: React.FC = () => {
   const classes = useStyles();
+
   return (
     <SharedLayout
       deep={{
