@@ -61,7 +61,7 @@ const AboutPage: React.FC = () => {
   return (
     <SharedLayout
       deep={{
-        backgroundImage: `${process.env.PUBLIC_URL}/assets/images/AboutUs.jpg`,
+        backgroundImage: `${process.env.PUBLIC_URL}/assets/images/about/AboutUs.jpg`,
         backgroundHeight: '570px',
         backgroundVerticalScale: '350px',
         parallaxStrength: 800,
@@ -101,7 +101,7 @@ const AboutPage: React.FC = () => {
                   <Grid item xs={12} key={value}>
                     <Grid container>
                       <Grid item xs={2}>
-                        <img src={`${process.env.PUBLIC_URL}/assets/images/TickIcon.png`} alt='Tick' />
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/about/TickIcon.png`} alt='Tick' />
                       </Grid>
                       <Grid item xs={10}>
                         {value}

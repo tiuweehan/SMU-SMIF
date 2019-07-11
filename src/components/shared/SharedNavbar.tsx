@@ -38,7 +38,11 @@ const SharedNavbar: React.FC = () => {
       <div style={{ height: '50px', width: '100%' }} />
       <AppBar position='fixed'>
         <Toolbar>
-          <img src={`${process.env.PUBLIC_URL}/assets/images/SMIF-Logo-v4.png`} height='45' className={classes.logo} />
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/images/shared/SMIF-Logo.png`}
+            height='45'
+            className={classes.logo}
+          />
           <div className={classes.title} />
           <Link className={classes.link} to='/'>
             <Button color='inherit' className={classes.button}>

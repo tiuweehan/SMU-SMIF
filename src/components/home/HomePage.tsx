@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme: Theme) =>
       color: '#153587'
     },
     picture: {
-      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/Slide-3.jpg)`,
+      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/home/Slide3.jpg)`,
       backgroundSize: 'contain'
     }
   })
