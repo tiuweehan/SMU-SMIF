@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
-import { AppBar, Toolbar, Button, IconButton, Box } from '@material-ui/core/';
+import { createStyles, makeStyles, Theme, useTheme } from '@material-ui/core/styles';
+import { AppBar, Toolbar, Button, IconButton, Box, useMediaQuery } from '@material-ui/core/';
 import MenuIcon from '@material-ui/icons/Menu';
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme: Theme) =>
       marginLeft: 0
     },
     menuButton: {
-      marginRight: theme.spacing(2)
+      color: 'white'
     },
     title: {
       flexGrow: 1
@@ -32,6 +32,8 @@ const useStyles = makeStyles((theme: Theme) =>
 
 const SharedNavbar: React.FC = () => {
   const classes = useStyles();
+  const theme = useTheme();
+  const md = useMediaQuery(theme.breakpoints.up('md'));
 
   return (
     <div className={classes.root}>
@@ -44,31 +46,39 @@ const SharedNavbar: React.FC = () => {
             className={classes.logo}
           />
           <div className={classes.title} />
-          <Link className={classes.link} to='/'>
-            <Button color='inherit' className={classes.button}>
-              Home
-            </Button>
-          </Link>
-          <Link className={classes.link} to='/about'>
-            <Button color='inherit' className={classes.button}>
-              About
-            </Button>
-          </Link>
-          <Link className={classes.link} to='/investments'>
-            <Button color='inherit' className={classes.button}>
-              Investments
-            </Button>
-          </Link>
-          <Link className={classes.link} to='/achievements'>
-            <Button color='inherit' className={classes.button}>
-              Achievements
-            </Button>
-          </Link>
-          <Link className={classes.link} to='/contact'>
-            <Button color='inherit' className={classes.button}>
-              Contact
-            </Button>
-          </Link>
+          {md ? (
+            <React.Fragment>
+              <Link className={classes.link} to='/'>
+                <Button color='inherit' className={classes.button}>
+                  Home
+                </Button>
+              </Link>
+              <Link className={classes.link} to='/about'>
+                <Button color='inherit' className={classes.button}>
+                  About
+                </Button>
+              </Link>
+              <Link className={classes.link} to='/investments'>
+                <Button color='inherit' className={classes.button}>
+                  Investments
+                </Button>
+              </Link>
+              <Link className={classes.link} to='/achievements'>
+                <Button color='inherit' className={classes.button}>
+                  Achievements
+                </Button>
+              </Link>
+              <Link className={classes.link} to='/contact'>
+                <Button color='inherit' className={classes.button}>
+                  Contact
+                </Button>
+              </Link>
+            </React.Fragment>
+          ) : (
+            <IconButton className={classes.menuButton}>
+              <MenuIcon />
+            </IconButton>
+          )}
         </Toolbar>
       </AppBar>
     </div>
