@@ -30,6 +30,27 @@ const useStyles = makeStyles((theme: Theme) =>
     investmentApproachAndPhilosophyImage: {
       width: '100%',
       marginBottom: '10px'
+    },
+    sectorCoverage: {
+      backgroundColor: 'white',
+      padding: '20px 30px 0px 30px'
+    },
+    sectorCoverageBlock: {
+      padding: '0px 5px 0px 5px',
+      marginBottom: '20px'
+    },
+    sectorCoverageHeader: {
+      textAlign: 'center',
+      color: '#153587',
+      fontSize: '42px',
+      fontWeight: 700,
+      marginBottom: '20px'
+    },
+    sectorCoverageSubHeader: {
+      textAlign: 'center',
+      color: '#153587',
+      fontSize: '20px',
+      fontWeight: 700
     }
   })
 );
@@ -86,6 +107,33 @@ const InvestmentsPage: React.FC = () => {
             </Grid>
           </Grid>
         </Grid>
+      </Grid>
+      <LineBreak height={'30px'} />
+      <Grid container spacing={2} className={classes.sectorCoverage}>
+        <Grid item xs={12} spacing={2} className={classes.sectorCoverageHeader}>
+          Sector Coverage
+        </Grid>
+        {[
+          { subHeader: 'Consumer', imageName: 'Consumer' },
+          { subHeader: 'Resources', imageName: 'Resources' },
+          { subHeader: 'Industrials', imageName: 'Industrials' },
+          { subHeader: 'Technology, Media and TelCo', imageName: 'Technology' },
+          { subHeader: 'Real Estate', imageName: 'RealEstate' },
+          { subHeader: 'Financials', imageName: 'Financials' }
+        ].map((coverage) => (
+          <Grid item xs={12} sm={6} md={4} spacing={2} key={coverage.subHeader}>
+            <Grid container className={classes.sectorCoverageBlock}>
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/images/investments/${coverage.imageName}.jpg`}
+                alt={coverage.subHeader}
+                className={classes.investmentApproachAndPhilosophyImage}
+              />
+              <Grid container justify='center' className={classes.sectorCoverageSubHeader}>
+                {coverage.subHeader}
+              </Grid>
+            </Grid>
+          </Grid>
+        ))}
       </Grid>
     </SharedLayout>
   );
