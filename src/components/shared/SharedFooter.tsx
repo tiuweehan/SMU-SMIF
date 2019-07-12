@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Typography } from '@material-ui/core/';
+import { Divider, Grid, Typography } from '@material-ui/core/';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import CheckCircleIcon from '@material-ui/icons/CheckCircleOutline';
 
@@ -33,12 +33,6 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     listText: {
       color: '#696969'
-    },
-    line: {
-      height: '1px',
-      border: 'none',
-      color: '#eee',
-      backgroundColor: '#eee'
     },
     copyright: {
       padding: '20px 80px 30px 80px',
@@ -130,7 +124,7 @@ const SharedFooter: React.FC = () => {
           </Grid>
         </Grid>
       </Grid>
-      <hr className={classes.line} />
+      <Divider />
       <Grid className={classes.copyright}>
         <Typography variant='body2' className={classes.text}>
           Copyright © 2018 SMU-SMIF
