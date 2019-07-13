@@ -3,16 +3,17 @@ import { Link } from 'react-router-dom';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import { Avatar, Box, Card, CardActions, CardContent, Divider, Grid, IconButton } from '@material-ui/core';
 import LineBreak from 'components/utils/LineBreak';
+import { ProfileData } from './types';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     card: {
-      height: 500,
+      height: 600,
       width: 320
     },
     cardContent: {
       width: '100%',
-      height: '85%'
+      height: '88%'
     },
     displayPicture: {
       width: 125,
@@ -46,14 +47,11 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 export interface Props {
-  displayPictureUrl: string;
-  name: string;
-  role: string;
-  linkedinUrl: string;
-  description: string;
+  profileData: ProfileData;
 }
 
-const ProfileCard: React.FC<Props> = ({ displayPictureUrl, name, role, linkedinUrl, description }) => {
+const ProfileCard: React.FC<Props> = (props) => {
+  const { name, role, picture, biography, linkedin } = props.profileData;
   const classes = useStyles({});
 
   return (
@@ -64,7 +62,11 @@ const ProfileCard: React.FC<Props> = ({ displayPictureUrl, name, role, linkedinU
           <Grid item xs={12}>
             <Grid container justify='center' alignContent='center'>
               <Avatar className={classes.displayPicture}>
-                <img className={classes.displayPicture} src={displayPictureUrl} alt={'Profile Picture'} />
+                <img
+                  className={classes.displayPicture}
+                  src={picture === '' ? '/assets/images/team/BlankProfile.png' : picture}
+                  alt={'Profile Picture'}
+                />
               </Avatar>
             </Grid>
           </Grid>
@@ -83,7 +85,7 @@ const ProfileCard: React.FC<Props> = ({ displayPictureUrl, name, role, linkedinU
           <LineBreak height={'10px'} />
           <Grid item xs={12}>
             <Grid container justify='center' alignContent='center'>
-              <Box className={classes.displayDescription}>{description}</Box>
+              <Box className={classes.displayDescription}>{biography}</Box>
             </Grid>
           </Grid>
         </Grid>
@@ -92,7 +94,7 @@ const ProfileCard: React.FC<Props> = ({ displayPictureUrl, name, role, linkedinU
         <Grid item xs={12} className={classes.icon}>
           <Divider />
           <Grid container justify='center' alignContent='center'>
-            <Link to={linkedinUrl}>
+            <a href={linkedin}>
               <IconButton>
                 <img
                   className={classes.icon}
@@ -100,7 +102,7 @@ const ProfileCard: React.FC<Props> = ({ displayPictureUrl, name, role, linkedinU
                   alt={'Linkedin Icon'}
                 />
               </IconButton>
-            </Link>
+            </a>
           </Grid>
         </Grid>
       </CardActions>

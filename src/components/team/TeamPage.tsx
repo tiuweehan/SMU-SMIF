@@ -1,9 +1,17 @@
 import * as React from 'react';
-import { Grid } from '@material-ui/core';
 import SharedLayout from 'components/shared/SharedLayout';
 import CohortExpansionPanel from './CohortExpansionPanel';
+import { SMIFData } from './types';
 
 const TeamPage: React.FC = () => {
+  const [smifData, setSmifData] = React.useState<SMIFData>({});
+
+  React.useEffect(() => {
+    fetch('assets/data/team/profiles.json')
+      .then((response) => response.json())
+      .then((response) => setSmifData(response));
+  }, []);
+
   return (
     <SharedLayout
       deep={{
@@ -19,7 +27,11 @@ const TeamPage: React.FC = () => {
         paddingBottom: '10px'
       }}
     >
-      <CohortExpansionPanel />
+      {Object.keys(smifData)
+        .reverse()
+        .map((year, index) => (
+          <CohortExpansionPanel key={index} cohortData={smifData[year]} defaultExpanded={index === 0} />
+        ))}
     </SharedLayout>
   );
 };

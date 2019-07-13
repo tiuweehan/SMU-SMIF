@@ -1,14 +1,30 @@
 import * as React from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
-import { Box, ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails, Grid } from '@material-ui/core';
+import ExpansionPanel from '@material-ui/core/ExpansionPanel';
+import { Box, ExpansionPanelSummary, ExpansionPanelDetails, Grid } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import DetailedProfileCard from './DetailedProfileCard';
 import LineBreak from 'components/utils/LineBreak';
+import { CohortData } from './types';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     expansionPanel: {
-      width: '100%',
+      'width': '100%',
+      'border': '1px solid rgba(0, 0, 0, .125)',
+      'boxShadow': 'none',
+      '&:not(:last-child)': {
+        borderBottom: 0
+      },
+      '&:before': {
+        display: 'none'
+      },
+      '&$expanded': {
+        margin: 'auto'
+      }
+    },
+    expanded: {
+      margin: '0 auto'
     },
     expansionPanelSummaryHeader: {
       color: '#888',
@@ -16,7 +32,7 @@ const useStyles = makeStyles((theme: Theme) =>
       fontWeight: 300
     },
     expansionPanelDetails: {
-      backgroundColor: '#eee',
+      backgroundColor: '#eee'
     },
     cardContainer: {
       marginBottom: '15px'
@@ -24,88 +40,39 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const CohortExpansionPanel: React.FC = () => {
+interface Props {
+  cohortData: CohortData;
+  defaultExpanded: boolean;
+}
+
+const CohortExpansionPanel: React.FC<Props> = (props) => {
+  const { cohortData, defaultExpanded } = props;
+  const { header, profiles } = cohortData;
   const classes = useStyles();
 
   return (
-    <ExpansionPanel className={classes.expansionPanel} defaultExpanded={true}>
-      <ExpansionPanelSummary
-        expandIcon={<ExpandMoreIcon />}
-      >
-        <Box className={classes.expansionPanelSummaryHeader}>
-          2019 - 2020
-        </Box>
+    <ExpansionPanel
+      classes={{ expanded: classes.expanded }}
+      className={classes.expansionPanel}
+      defaultExpanded={defaultExpanded}
+    >
+      <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+        <Box className={classes.expansionPanelSummaryHeader}>{header}</Box>
       </ExpansionPanelSummary>
       <ExpansionPanelDetails className={classes.expansionPanelDetails}>
         <Grid container>
           <Grid item xs={12}>
-            <LineBreak height={'10px'}/>
+            <LineBreak height={'10px'} />
           </Grid>
           <Grid item xs={12}>
             <Grid container>
-              <Grid item xs={12} md={6} lg={4} className={classes.cardContainer}>
-                <Grid container justify='center'>
-                  <DetailedProfileCard
-                    name={'Zaf Tiu Wee Yong'}
-                    role={'President'}
-                    displayPictureUrl={
-                      'https://media.licdn.com/dms/image/' +
-                      'C5103AQG4O_eLw4TRaA/profile-displayphoto' +
-                      '-shrink_800_800/0?e=1568246400&v=beta&' +
-                      't=69ulx23MTA910e35olkbyFR3RRLJIBzJaENsGVMJJkg'
-                    }
-                    linkedinUrl={'https://www.linkedin.com/in/zaf-tiu'}
-                    description={
-                      'Cipto was a member of SMU-SMIF during his time at SMU. ' +
-                      'He is currently a Director at Druk Asia Private ' +
-                      'Limited, a travel and tour agency. Cipto previously worked as an equity analyst ' +
-                      'at Aberdeen Asset Management, and as an analyst at JPMorgan.'
-                    }
-                  />
+              {profiles.map((profileData, index) => (
+                <Grid item key={index} xs={12} md={6} lg={4} className={classes.cardContainer}>
+                  <Grid container justify='center'>
+                    <DetailedProfileCard profileData={profileData} />
+                  </Grid>
                 </Grid>
-              </Grid>
-              <Grid item xs={12} md={6} lg={4} className={classes.cardContainer}>
-                <Grid container justify='center'>
-                  <DetailedProfileCard
-                    name={'Zaf Tiu Wee Yong'}
-                    role={'President'}
-                    displayPictureUrl={
-                      'https://media.licdn.com/dms/image/' +
-                      'C5103AQG4O_eLw4TRaA/profile-displayphoto' +
-                      '-shrink_800_800/0?e=1568246400&v=beta&' +
-                      't=69ulx23MTA910e35olkbyFR3RRLJIBzJaENsGVMJJkg'
-                    }
-                    linkedinUrl={'https://www.linkedin.com/in/zaf-tiu'}
-                    description={
-                      'Cipto was a member of SMU-SMIF during his time at SMU. ' +
-                      'He is currently a Director at Druk Asia Private ' +
-                      'Limited, a travel and tour agency. Cipto previously worked as an equity analyst ' +
-                      'at Aberdeen Asset Management, and as an analyst at JPMorgan.'
-                    }
-                  />
-                </Grid>
-              </Grid>
-              <Grid item xs={12} md={6} lg={4} className={classes.cardContainer}>
-                <Grid container justify='center'>
-                  <DetailedProfileCard
-                    name={'Zaf Tiu Wee Yong'}
-                    role={'President'}
-                    displayPictureUrl={
-                      'https://media.licdn.com/dms/image/' +
-                      'C5103AQG4O_eLw4TRaA/profile-displayphoto' +
-                      '-shrink_800_800/0?e=1568246400&v=beta&' +
-                      't=69ulx23MTA910e35olkbyFR3RRLJIBzJaENsGVMJJkg'
-                    }
-                    linkedinUrl={'https://www.linkedin.com/in/zaf-tiu'}
-                    description={
-                      'Cipto was a member of SMU-SMIF during his time at SMU. ' +
-                      'He is currently a Director at Druk Asia Private ' +
-                      'Limited, a travel and tour agency. Cipto previously worked as an equity analyst ' +
-                      'at Aberdeen Asset Management, and as an analyst at JPMorgan.'
-                    }
-                  />
-                </Grid>
-              </Grid>
+              ))}
             </Grid>
           </Grid>
         </Grid>
