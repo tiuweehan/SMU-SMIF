@@ -7,8 +7,8 @@ import LineBreak from 'components/utils/LineBreak';
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     card: {
-      height: 530,
-      width: 340
+      height: 500,
+      width: 320
     },
     cardContent: {
       width: '100%',
@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme: Theme) =>
       marginRight: '5%',
       textAlign: 'center',
       font: 'calibri',
-      fontSize: 13,
+      fontSize: 12,
       fontFamily: '"Arial", Arial, Tahoma, sans-serif',
       lineHeight: 2
     },
