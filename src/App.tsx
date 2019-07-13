@@ -7,6 +7,7 @@ import { ThemeProvider } from '@material-ui/styles';
 import SharedMain from 'components/shared/SharedMain';
 import HomePage from 'components/home/HomePage';
 import AboutPage from 'components/about/AboutPage';
+import TeamPage from 'components/team/TeamPage';
 import InvestmentsPage from 'components/investments/InvestmentsPage';
 import AchievementsPage from 'components/achievements/AchievementsPage';
 import ContactPage from 'components/contact/ContactPage';
@@ -29,6 +30,7 @@ const App: React.FC = () => {
             <Switch>
               <Route exact path='/' component={HomePage} />
               <Route exact path='/about' component={AboutPage} />
+              <Route exact path='/team' component={TeamPage} />
               <Route exact path='/investments' component={InvestmentsPage} />
               <Route exact path='/achievements' component={AchievementsPage} />
               <Route exact path='/contact' component={ContactPage} />

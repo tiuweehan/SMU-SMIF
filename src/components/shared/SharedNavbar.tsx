@@ -37,7 +37,7 @@ const SharedNavbar: React.FC = () => {
 
   return (
     <div className={classes.root}>
-      <div style={{ height: '50px', width: '100%' }} />
+      <div style={{ height: '60px', width: '100%' }} />
       <AppBar position='fixed'>
         <Toolbar>
           <img
@@ -56,6 +56,11 @@ const SharedNavbar: React.FC = () => {
               <Link className={classes.link} to='/about'>
                 <Button color='inherit' className={classes.button}>
                   About
+                </Button>
+              </Link>
+              <Link className={classes.link} to='/team'>
+                <Button color='inherit' className={classes.button}>
+                  Team
                 </Button>
               </Link>
               <Link className={classes.link} to='/investments'>
