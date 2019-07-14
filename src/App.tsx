@@ -15,7 +15,7 @@ import ContactPage from 'components/contact/ContactPage';
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: '#07163f'
+      main: '#153587'
     }
   }
 });

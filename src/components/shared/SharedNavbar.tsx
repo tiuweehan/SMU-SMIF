@@ -10,6 +10,13 @@ const useStyles = makeStyles((theme: Theme) =>
       flexGrow: 1,
       width: 'auto'
     },
+    buffer: {
+      height: '55px',
+      width: '100%'
+    },
+    appbar: {
+      backgroundColor: '#07163f'
+    },
     logo: {
       marginLeft: 0
     },
@@ -37,8 +44,8 @@ const SharedNavbar: React.FC = () => {
 
   return (
     <div className={classes.root}>
-      <div style={{ height: '60px', width: '100%' }} />
-      <AppBar position='fixed'>
+      <div className={classes.buffer} />
+      <AppBar position='fixed' className={classes.appbar}>
         <Toolbar>
           <img
             src={`${process.env.PUBLIC_URL}/assets/images/shared/SMIF-Logo.png`}
