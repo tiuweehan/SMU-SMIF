@@ -58,6 +58,7 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 const AboutPage: React.FC = () => {
+  React.useEffect(() => window.scrollTo(0, 0), []);
   const classes = useStyles();
 
   return (

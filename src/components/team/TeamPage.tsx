@@ -4,6 +4,7 @@ import CohortExpansionPanel from './CohortExpansionPanel';
 import { SMIFData } from './types';
 
 const TeamPage: React.FC = () => {
+  React.useEffect(() => window.scrollTo(0, 0), []);
   const [smifData, setSmifData] = React.useState<SMIFData>({});
 
   React.useEffect(() => {

@@ -28,6 +28,7 @@ export interface TimelineData {
 }
 
 const AchievementsPage: React.FC = () => {
+  React.useEffect(() => window.scrollTo(0, 0), []);
   const [timelineData, setTimelineData] = React.useState<TimelineData[]>([]);
   const classes = useStyles();
 

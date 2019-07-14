@@ -56,6 +56,7 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 const InvestmentsPage: React.FC = () => {
+  React.useEffect(() => window.scrollTo(0, 0), []);
   const classes = useStyles();
 
   return (
