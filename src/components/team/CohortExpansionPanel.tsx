@@ -7,6 +7,9 @@ import DetailedProfileCard from './DetailedProfileCard';
 import LineBreak from 'components/utils/LineBreak';
 import { CohortData } from './types';
 
+// tslint:disable-next-line
+const { Fade } = require('react-reveal');
+
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     expansionPanel: {
@@ -69,7 +72,9 @@ const CohortExpansionPanel: React.FC<Props> = (props) => {
               {profiles.map((profileData, index) => (
                 <Grid item key={index} xs={12} md={6} lg={4} className={classes.cardContainer}>
                   <Grid container justify='center'>
-                    <DetailedProfileCard profileData={profileData} />
+                    <Fade>
+                      <DetailedProfileCard profileData={profileData} />
+                    </Fade>
                   </Grid>
                 </Grid>
               ))}
