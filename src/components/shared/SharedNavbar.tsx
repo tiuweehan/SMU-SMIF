@@ -1,8 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, withRouter, RouteComponentProps } from 'react-router-dom';
 import { createStyles, makeStyles, Theme, useTheme } from '@material-ui/core/styles';
 import { AppBar, Toolbar, Button, IconButton, Box, useMediaQuery } from '@material-ui/core/';
 import MenuIcon from '@material-ui/icons/Menu';
+import SharedDrawer from './SharedDrawer';
+import { DisplayLinkData } from './types';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -27,8 +29,17 @@ const useStyles = makeStyles((theme: Theme) =>
       flexGrow: 1
     },
     button: {
+      'marginRight': 0,
+      'textTransform': 'none',
+      'color': '#c0c6d4',
+      '&:hover': {
+        color: 'white'
+      }
+    },
+    selectedButton: {
       marginRight: 0,
-      textTransform: 'none'
+      textTransform: 'none',
+      color: 'white'
     },
     link: {
       textDecoration: 'none',
@@ -37,10 +48,20 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const SharedNavbar: React.FC = () => {
+type Props = RouteComponentProps;
+
+const SharedNavbar: React.FC<Props> = (props) => {
   const classes = useStyles();
   const theme = useTheme();
   const md = useMediaQuery(theme.breakpoints.up('md'));
+  const [linksData, setLinksData] = React.useState<DisplayLinkData[]>([]);
+  const [isOpen, setIsOpen] = React.useState<boolean>(false);
+
+  React.useEffect(() => {
+    fetch('/assets/data/shared/shared_drawer.json')
+      .then((response) => response.json())
+      .then((data) => setLinksData(data));
+  }, []);
 
   return (
     <div className={classes.root}>
@@ -54,40 +75,16 @@ const SharedNavbar: React.FC = () => {
           />
           <div className={classes.title} />
           {md ? (
-            <React.Fragment>
-              <Link className={classes.link} to='/'>
-                <Button color='inherit' className={classes.button}>
-                  Home
+            linksData.map((linkData, index) => (
+              <Link key={index} className={classes.link} to={linkData.link}>
+                <Button className={props.location.pathname === linkData.link ? classes.selectedButton : classes.button}>
+                  {linkData.title}
                 </Button>
               </Link>
-              <Link className={classes.link} to='/about'>
-                <Button color='inherit' className={classes.button}>
-                  About
-                </Button>
-              </Link>
-              <Link className={classes.link} to='/team'>
-                <Button color='inherit' className={classes.button}>
-                  Team
-                </Button>
-              </Link>
-              <Link className={classes.link} to='/investments'>
-                <Button color='inherit' className={classes.button}>
-                  Investments
-                </Button>
-              </Link>
-              <Link className={classes.link} to='/achievements'>
-                <Button color='inherit' className={classes.button}>
-                  Achievements
-                </Button>
-              </Link>
-              <Link className={classes.link} to='/contact'>
-                <Button color='inherit' className={classes.button}>
-                  Contact
-                </Button>
-              </Link>
-            </React.Fragment>
+            ))
           ) : (
-            <IconButton className={classes.menuButton}>
+            <IconButton className={classes.menuButton} onClick={() => setIsOpen(!isOpen)}>
+              <SharedDrawer isOpen={isOpen} linksData={linksData} />
               <MenuIcon />
             </IconButton>
           )}
@@ -97,4 +94,4 @@ const SharedNavbar: React.FC = () => {
   );
 };
 
-export default SharedNavbar;
+export default withRouter(SharedNavbar);

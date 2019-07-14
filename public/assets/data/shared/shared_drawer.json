@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Home",
+    "link": "/"
+  },
+  {
+    "title": "About",
+    "link": "/about"
+  },
+  {
+    "title": "Team",
+    "link": "/team"
+  },
+  {
+    "title": "Investments",
+    "link": "/investments"
+  },
+  {
+    "title": "Achievements",
+    "link": "/achievements"
+  },
+  {
+    "title": "Contact",
+    "link": "/contact"
+  }
+]
