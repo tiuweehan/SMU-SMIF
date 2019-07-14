@@ -1,7 +1,7 @@
 import React from 'react';
 import { CssBaseline } from '@material-ui/core';
 import { StylesProvider } from '@material-ui/styles';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import { createMuiTheme } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/styles';
 import SharedMain from 'components/shared/SharedMain';
@@ -34,6 +34,7 @@ const App: React.FC = () => {
               <Route exact path='/investments' component={InvestmentsPage} />
               <Route exact path='/achievements' component={AchievementsPage} />
               <Route exact path='/contact' component={ContactPage} />
+              <Route path='/' component={() => <Redirect to={'/'} />} />
             </Switch>
           </SharedMain>
         </BrowserRouter>
