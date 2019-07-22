@@ -1,9 +1,49 @@
 [
   {
     "header": "CFA Institute Research Challenge",
-    "subheader": "Global 1st Runner Up",
+    "subheader": "National Champion",
+    "date": "2019",
+    "picture": "/assets/images/achievements/2019/CFA.png",
+    "description": "",
+    "icon": ""
+  },
+  {
+    "header": "APECS LBO Competition",
+    "subheader": "1st Runners-up",
+    "date": "2019",
+    "picture": "/assets/images/achievements/2019/APECS.png",
+    "description": "",
+    "icon": ""
+  },
+  {
+    "header": "APECS LBO Competition",
+    "subheader": "1st Runners-up",
+    "date": "2018",
+    "picture": "/assets/images/achievements/2018/APECS.png",
+    "description": "",
+    "icon": ""
+  },
+  {
+    "header": "Belt & Road Initiative Case Competition",
+    "subheader": "2nd Runners-up",
+    "date": "2018",
+    "picture": "/assets/images/achievements/2018/Belt.png",
+    "description": "",
+    "icon": ""
+  },
+  {
+    "header": "Real Business Weekend Hackathon",
+    "subheader": "Champion",
+    "date": "2018",
+    "picture": "/assets/images/achievements/2018/RealBusinessWeekend.png",
+    "description": "",
+    "icon": ""
+  },
+  {
+    "header": "CFA Institute Research Challenge",
+    "subheader": "Global 1st Runners-up",
     "date": "2017",
-    "picture": "",
+    "picture": "/assets/images/achievements/2017/CFA.png",
     "description": "",
     "icon": ""
   },
@@ -11,7 +51,7 @@
     "header": "Inventis Case Competition",
     "subheader": "Champion",
     "date": "2017",
-    "picture": "",
+    "picture": "/assets/images/achievements/2017/Inventis.png",
     "description": "",
     "icon": ""
   },
@@ -19,15 +59,23 @@
     "header": "APECS LBO Competition",
     "subheader": "Champion",
     "date": "2017",
-    "picture": "",
+    "picture": "/assets/images/achievements/2017/APECS.png",
     "description": "",
     "icon": ""
   },
   {
     "header": "Maybank Kim Eng Stock Pitch Challenge",
-    "subheader": "2nd Runner Up",
+    "subheader": "2nd Runners-up",
     "date": "2017",
-    "picture": "",
+    "picture": "/assets/images/achievements/2017/Maybank.png",
+    "description": "",
+    "icon": ""
+  },
+  {
+    "header": "Wisma Atria Case Competition",
+    "subheader": "2nd Runners-up",
+    "date": "2017",
+    "picture": "/assets/images/achievements/2017/Wisma.png",
     "description": "",
     "icon": ""
   },
@@ -35,7 +83,7 @@
     "header": "Singapore Business Case Competition",
     "subheader": "Champion",
     "date": "2017",
-    "picture": "",
+    "picture": "/assets/images/achievements/2017/SingaporeBusinessCase.png",
     "description": "",
     "icon": ""
   },
@@ -43,7 +91,7 @@
     "header": "NUS-SGX Stock Pitch Challenge",
     "subheader": "Champion",
     "date": "2017",
-    "picture": "",
+    "picture": "/assets/images/achievements/2017/NUSSGX.png",
     "description": "",
     "icon": ""
   },
@@ -59,7 +107,7 @@
     "header": "Deloitte Risk Case Competition",
     "subheader": "Champion",
     "date": "2016",
-    "picture": "",
+    "picture": "/assets/images/achievements/2016/Deloitte.png",
     "description": "",
     "icon": ""
   },

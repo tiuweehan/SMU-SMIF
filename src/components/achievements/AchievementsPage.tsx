@@ -1,6 +1,6 @@
 import React from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
-import { Grid, Paper } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 import SharedLayout from 'components/shared/SharedLayout';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -14,6 +14,9 @@ const useStyles = makeStyles((theme: Theme) =>
     timeline: {
       backgroundColor: 'rgb(235, 235, 235)',
       padding: '30px 30px 30px 30px'
+    },
+    picture: {
+      width: '100%'
     }
   })
 );
@@ -56,7 +59,7 @@ const AchievementsPage: React.FC = () => {
       <Grid className={classes.timeline}>
         <VerticalTimeline>
           {timelineData.map((event, index) => {
-            const { header, subheader, date, description } = event;
+            const { header, subheader, picture, date, description } = event;
             return (
               <VerticalTimelineElement
                 key={index}
@@ -67,6 +70,12 @@ const AchievementsPage: React.FC = () => {
               >
                 <h3 className='vertical-timeline-element-title'>{header}</h3>
                 <h4 className='vertical-timeline-element-subtitle'>{subheader}</h4>
+                {picture !== '' && (
+                  <>
+                    <br />
+                    <img className={classes.picture} src={picture} />
+                  </>
+                )}
                 <p>{description}</p>
               </VerticalTimelineElement>
             );
