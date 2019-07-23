@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme: Theme) =>
     contactEmail: {
       color: '#b89788',
       fontSize: '30px',
-      fontWeight: 700,
+      fontWeight: 700
     },
     email: {
       overflowX: 'scroll'

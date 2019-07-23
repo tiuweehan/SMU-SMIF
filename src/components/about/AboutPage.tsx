@@ -138,7 +138,7 @@ const AboutPage: React.FC = () => {
                     (CIO of Mirae Asset Management) and Associate Professor Francis Koh.
                   </Grid>
                   &nbsp;
-                  <Grid>SMU-SMIF commenced its investment Fund 1 with a mock portfolio in January 2006. [ ]</Grid>
+                  <Grid>SMU-SMIF commenced its investment Fund 1 with a mock portfolio in January 2006.</Grid>
                 </Grid>
               </Grid>
             </Grid>
