@@ -9,6 +9,7 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+/build
 
 # Ignore Mac OS Desktop Services Store
 .DS_Store
