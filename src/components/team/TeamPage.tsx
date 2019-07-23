@@ -6,6 +6,7 @@ import { SMIFData } from './types';
 const TeamPage: React.FC = () => {
   React.useEffect(() => window.scrollTo(0, 0), []);
   const [smifData, setSmifData] = React.useState<SMIFData>({});
+  const [currentlyExpanded, setCurrentlyExpanded] = React.useState<number>(0);
 
   React.useEffect(() => {
     fetch('assets/data/team/profiles.json')
@@ -29,9 +30,19 @@ const TeamPage: React.FC = () => {
       }}
     >
       {Object.keys(smifData)
-        .reverse()
+        .sort((a, b) => {
+          const year1 = parseInt(a, 10);
+          const year2 = parseInt(b, 10);
+          return isNaN(year1) && !isNaN(year2) ? 1 : !isNaN(year1) && isNaN(year2) ? -1 : year2 - year1;
+        })
         .map((year, index) => (
-          <CohortExpansionPanel key={index} cohortData={smifData[year]} defaultExpanded={index === 0} />
+          <CohortExpansionPanel
+            key={index}
+            cohortData={smifData[year]}
+            defaultExpanded={index === 0}
+            isExpanded={currentlyExpanded === index}
+            setIsExpanded={(shouldExpand) => setCurrentlyExpanded(shouldExpand ? index : -1)}
+          />
         ))}
     </SharedLayout>
   );

@@ -1,60 +1,645 @@
 {
-  "2017": {
-    "header": "Class of 2017",
+  "2008": {
+    "header": "Class of 2008",
+    "profiles": [
+      {
+        "name": "Alex Lim ",
+        "role": "President",
+        "picture": "/assets/images/team/profiles/2008/AlexLim.png",
+        "biography": "Alex was president of SMU-SMIF during his time at SMU. He graduated with a Double Degree in Accountancy & Business Management. Alex is currently a vice president of institutional equity sales at Credit Suisse. ",
+        "linkedin": "https://www.linkedin.com/in/alex-lim-02671656/"
+      },
+      {
+        "name": "Ng Si Yong",
+        "role": "Vice-President",
+        "picture": "/assets/images/team/profiles/2008/NgSiYong.png",
+        "biography": "Si Yong was vice president of SMU-SMIF during his time at SMU. He graduated with a Double Degree in Accountancy & Business Management. Si Yong is currently a high yield credit analyst at Lucror Analytics. He previously interned at Rothschild's investment banking division.",
+        "linkedin": "https://www.linkedin.com/in/si-yong-ng-05babb1b/"
+      },
+      {
+        "name": "Lee Jin Yang",
+        "role": "Sector Head",
+        "picture": "/assets/images/team/profiles/2008/LeeJinYang.png",
+        "biography": "Jin Yang was the Macroeconomics & Strategy Sector Head for SMU-SMIF during his time at SMU. He graduated with a Double Degree in Economics & Business Management. Jin Yang is currently an investment manager at Aberdeen Standard Investments. He previously interned at Citi and Aberdeen Asset Management.",
+        "linkedin": "https://www.linkedin.com/in/lee-jin-yang-35aa8723/"
+      },
+      {
+        "name": "Lai Chang Wen",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2008/LaiChangWen.png",
+        "biography": "Chang Wen was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Chang Wen is the CEO of Ninja Van, Southeast Asia's leading logistics provider. He previously interned at Deutsche Bank.",
+        "linkedin": "https://www.linkedin.com/in/chang-wen-lai-37358950/"
+      },
+      {
+        "name": "Brandon Aw",
+        "role": "Member",
+        "picture": "",
+        "biography": "Brandon was a member of SMU-SMIF during his time at SMU. He graduated with Bachelors of Accountancy & Business Management. Brandon is currently an assistant vice president for Mizuho's global project finance department. He previously interned as an investment banking analyst at Rothschild.",
+        "linkedin": "https://www.linkedin.com/in/brandon-aw-2767b793/"
+      },
+      {
+        "name": "Vincent Yueh Yen Chin",
+        "role": "Member",
+        "picture": "",
+        "biography": "Vincent was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Science (Economics & Finance). Vincent is currently an investment manager at One Asia Investment Partners. ",
+        "linkedin": "https://www.linkedin.com/in/vincentyueh/"
+      },
+      {
+        "name": "Brendan Chua",
+        "role": "Member",
+        "picture": "",
+        "biography": "Brendan was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Brendan is currently a senior associate at Temasek Holdings. ",
+        "linkedin": "https://www.linkedin.com/in/brendan-chua-6bb95021/"
+      },
+      {
+        "name": "Anita Goh",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2008/AnitaGoh.png",
+        "biography": "Anita was a member of SMU-SMIF during her time at SMU. She graduated with a Double Degree in Business Management & Accountancy. Anita is currently a portfolio manager at MAS. She previously worked at Franklin Templeton Investments as an institutional client relations manager. She previously interned at AL Wealth Partners.",
+        "linkedin": "https://www.linkedin.com/in/anita-goh-cfa-36b5577b/"
+      },
+      {
+        "name": "Loh Yao Sheng",
+        "role": "Member",
+        "picture": "",
+        "biography": "Yao Sheng was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelors for Accounting and Finance. Yao Sheng is currently a credit analyst covering local corporates at Standard Chartered. He previously interned at BofA, PwC, and The JLJ Group.",
+        "linkedin": "https://www.linkedin.com/in/yao-sheng-loh-6526641a/"
+      }
+    ]
+  },
+  "2009": {
+    "header": "Class of 2009",
+    "profiles": [
+      {
+        "name": "Gordon Foo Song Yun",
+        "role": "Vice-President",
+        "picture": "/assets/images/team/profiles/2009/GordonFooSongYun.png",
+        "biography": "Gordon was vice president of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy & Finance. Gordon is currently a vice president of the M&A group in the investment banking division of Barclays. Gordon previously had investment banking internships at Barclays and Standard Chartered.",
+        "linkedin": "https://www.linkedin.com/in/gordon-foo-59255925/"
+      },
+      {
+        "name": "Joshua Ng Yi Wei ",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2009/JoshuaNgYiWei.png",
+        "biography": "Joshua was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy. Joshua is currently an investment banking analyst in the financial institutions group at Standard Chartered. He previously had investment banking internships at Barclays and Standard Chartered.",
+        "linkedin": "https://www.linkedin.com/in/joshua-ng-yi-wei-6265862a/"
+      },
+      {
+        "name": "Eugene Seow",
+        "role": "Member",
+        "picture": "",
+        "biography": "Eugene was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy & Finance. Eugene is currently an associate at GIC. He previously interned at Aberdeen Asset Management and in the real estate investment banking division of Standard Chartered.",
+        "linkedin": "https://www.linkedin.com/in/eugene-seow-22399929/"
+      },
+      {
+        "name": "Jonathan Lim Wen Kai",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2009/JonathanLimWenKai.png",
+        "biography": "Jonathan was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy & Finance. Jonathan is currently an investment analyst at Balyasny Asset Management focusing on Asian financials. He previously worked at Goldman Sachs as an equity research analyst. Jonathan interned at Temasek Holdings.",
+        "linkedin": "https://www.linkedin.com/in/jonathan-lim-08650128/"
+      },
+      {
+        "name": "Guan Wenyi",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2009/GuanWenyi.png",
+        "biography": "Wenyi was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy. Wenyi is currently an investment analyst for Fuchs Capital Partners focusing on long/short equities in the TMT space. He previously interned at Citi.",
+        "linkedin": "https://www.linkedin.com/in/guanwenyi/"
+      },
+      {
+        "name": "Elson Tan ",
+        "role": "Member",
+        "picture": "",
+        "biography": "Elson was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy & Finance. Elson is currently an assistant governance manager at AIA Investment Manager. He previously interned at Seatown Holdings.",
+        "linkedin": "https://www.linkedin.com/in/elsontan/"
+      },
+      {
+        "name": "Justin Koh Zhi Ren",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2009/JustinKohZhiRen.png",
+        "biography": "Justin was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Economics & Finance. Justin is currently a country sales manager at WeWork. He previously interned at DNB Markets and ING.",
+        "linkedin": "https://www.linkedin.com/in/justin-koh/"
+      },
+      {
+        "name": "Ryan Foo",
+        "role": "Member",
+        "picture": "",
+        "biography": "Ryan was a member of SMU-SMIF during his time at SMU. He graduated with Bachelors of Accountancy and Science (Economics). Ryan currenty works in global research at BofA Merrill Lynch. He previously worked at Fitch Ratings and Goldman Sachs and interned at PwC.",
+        "linkedin": "https://www.linkedin.com/in/ryan-foo-30a22144/"
+      },
+      {
+        "name": "Ng Kian Tat",
+        "role": "Member",
+        "picture": "",
+        "biography": "Kian Tat was Sector Head for SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Administration. Kian Tat is currently a research analyst at Santa Lucia Asset Management covering global equities with a value focus. He previously interned at Wellington Management and DNB Markets.",
+        "linkedin": "https://www.linkedin.com/in/kian-tat-ng-65977a45/"
+      },
+      {
+        "name": "Jerry Chee Wei Yang",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2009/JerryCheeWeiYang.png",
+        "biography": "Jerry was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Jerry is currently an associate director of portfolio analytics at Temasek Holdings. He previously worked at Eastspring Investments.",
+        "linkedin": "https://www.linkedin.com/in/jerrychee/"
+      },
+      {
+        "name": "Karl Teo Kao Jun",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2009/KarlTeoKaoJun.png",
+        "biography": "Karl was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy. Karl is currently a manager of middle market financial sponsors at HSBC. He previously interned in the M&A division of the investment banking group at Standard Chartered.",
+        "linkedin": "https://www.linkedin.com/in/karl-teo-ba64a0b2/"
+      },
+      {
+        "name": "Marc Song Jiashun",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2009/MarcSongJiashun.png",
+        "biography": "Marc was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Marc is currently an eFX trader at NatWest Markets. He previously interned at Citi.",
+        "linkedin": "https://www.linkedin.com/in/marc-song-jiashun-5878a91b/"
+      },
+      {
+        "name": "Jonathan Foo",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2009/JonathanFoo.png",
+        "biography": "Jonathan was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy. Jonathan currently runs Workman & Co. He previously worked at Pontiac Land Group, M&G Real Estate, and KPMG. Jonathan previously interned at Pareto Securities. ",
+        "linkedin": "https://www.linkedin.com/in/jonathan-foo-b0367211a/"
+      },
+      {
+        "name": "Amanda Charlene Chia",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2009/AmandaCharleneChia.png",
+        "biography": "Amanda was a member of SMU-SMIF during her time at SMU. She graduated with a Double Degree in Accountancy & Business Administration. Amanda is currently the head of business development for APAC & Europe for Audacy. She previously interned at Santa Lucia Asset Management.",
+        "linkedin": "https://www.linkedin.com/in/amandacharlenechia/"
+      },
+      {
+        "name": "Zhong Yu Xu",
+        "role": "Member",
+        "picture": "",
+        "biography": "Yu Xu was a member of SMU-SMIF during his time at SMU. He graduated with Bachelors of Accountancy & Business Management. Yu Xu is currently a credit analyst at Allianz Global Investors. He previously worked as a research analyst at Tahan Capital Management. Yu Xu previously interned at Aviva Investors.",
+        "linkedin": "https://www.linkedin.com/in/zhong-yu-xu-2114a234/"
+      },
+      {
+        "name": "Cedric Chua",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2009/CedricChua.png",
+        "biography": "Cedric was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Science (Information Systems). Cedric is currently an investment banking associate at Evercore. He previously worked in the investment banking division of BofA Merrill Lynch after interning there.",
+        "linkedin": "https://www.linkedin.com/in/cedric-chua-19a0033b/"
+      }
+    ]
+  },
+  "2010": {
+    "header": "Class of 2010",
+    "profiles": [
+      {
+        "name": "Jamien Lim",
+        "role": "Sector Head",
+        "picture": "/assets/images/team/profiles/2010/JamienLim.png",
+        "biography": "Jamien was the Property & REITs Sector Head for SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Jamien is currently an investment analyst at Tecity Group, a family office. He previously interned at Unilever and Temasek Holdings.",
+        "linkedin": "https://www.linkedin.com/in/jamien-lim-b57277a1/"
+      },
+      {
+        "name": "Teo Guoren",
+        "role": "Sector Head",
+        "picture": "/assets/images/team/profiles/2010/TeoGuoren.png",
+        "biography": "Guoren was TMT Sector Head for SMU-SMIF during his time at SMU. He graduated with Bachelors of Accountancy and Business Management. Guoren is currently an investment banking associate at Credit Suisse after interning there. He also interned in the investment banking division of HSBC previously.",
+        "linkedin": "https://www.linkedin.com/in/guoren-teo-6753b6123/"
+      },
+      {
+        "name": "Peter Oh Wei Liang",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/PeterOhWeiLiang.png",
+        "biography": "Peter was a member of SMU-SMIF during his time at SMU. He graduated with Bachelors of Accounting & Business Management and Accounting & Finance. Peter is currently an investment advisor at HSBC Private Banking. He previously worked as an investment analyst at JPMorgan after interning there.",
+        "linkedin": "https://www.linkedin.com/in/peter-oh-2811a549/"
+      },
+      {
+        "name": "Tan Ming Xian",
+        "role": "Member",
+        "picture": "",
+        "biography": "Ming Xian was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy. Ming Xian is currently an investment banking associate at Standard Chartered. He previously interned as an investment banking analyst at HSBC.",
+        "linkedin": "https://www.linkedin.com/in/ming-xian-tan-8209a7a3/"
+      },
+      {
+        "name": "Lorraine Peh",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/LorrainePeh.png",
+        "biography": "Lorraine was a member of SMU-SMIF during her time at SMU. She graduated with a Double Degree in Accountancy and Business Management. Lorraine is currently a treasury manager at Shell. She previously interned in the institutional banking division of ANZ. ",
+        "linkedin": "https://www.linkedin.com/in/lorraine-peh-a93a633b/"
+      },
+      {
+        "name": "Kenneth Yoong",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/KennethYoong.png",
+        "biography": "Kenneth was a member of SMU-SMIF during his time at SMU. He currently works in the real estate investment division of Homax. Kenneth previously worked as an investment analyst in the real estate and private markets division of UBS.",
+        "linkedin": "https://www.linkedin.com/in/kenneth-yoong-85626929/"
+      },
+      {
+        "name": "Samuel Yip",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/SamuelYip.png",
+        "biography": "Samuel was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Administration. Samuel currently works at PIMCO in their global wealth management division. He previously worked at Goldman Sachs and Temasek Holdings.",
+        "linkedin": "https://www.linkedin.com/in/samuel-yip-1a81b040/"
+      },
+      {
+        "name": "Lai Ji Shun",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/LaiJiShun.png",
+        "biography": "Ji Shun was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Ji Shun currently works in the APAC division of Credit Suisse's anti-fraud arm. He previously interned at Sumitomo Mitsui Banking Corporation.",
+        "linkedin": "https://www.linkedin.com/in/jishunlai/"
+      },
+      {
+        "name": "Devika Loiwal",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/DevikaLoiwal.png",
+        "biography": "Devika was a member of SMU-SMIF during her time at SMU. She graduated with a Bachelor of Business Management. Devika is currently a junior trader at Cargill after interning there. She previously had internships at Unilever and Ernst & Young.",
+        "linkedin": "https://www.linkedin.com/in/devika-loiwal-71b1b140/"
+      },
+      {
+        "name": "Cai Junfeng",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/CaiJunfeng.png",
+        "biography": "Junfeng was a member of SMU-SMIF during his time at SMU. He graduated with a Double Degree in Business Management and Accountancy. Junfeng is currently an associate at BNP Paribas. He previously interned at Temasek Holdings.",
+        "linkedin": "https://www.linkedin.com/in/caijunfeng/"
+      },
+      {
+        "name": "Kimberly Yeoh",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/KimberlyYeoh.png",
+        "biography": "Kimberly was a member of SMU-SMIF during her time at SMU. She graduated with a Bachelor of Economics. Kimberly currently works at Amazon's product quality division. She previously interned at Ti Investment.",
+        "linkedin": "https://www.linkedin.com/in/kimberly-yeoh-27b3a440/"
+      },
+      {
+        "name": "Jonathan Ang Zi Hao",
+        "role": "Member",
+        "picture": "",
+        "biography": "Jonathan was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Economics & Finance. Jonathan is currently a fixed income analyst at UOB Asset Management. He previously interned at Commerzbank AG and Nikko Asset Management.",
+        "linkedin": "https://www.linkedin.com/in/jonathan-ang-b9660435/"
+      },
+      {
+        "name": "Vanessa Boey",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/VanessaBoey.png",
+        "biography": "Vanessa was a member of SMU-SMIF during her time at SMU. She is currently an executive director at Goldman Sachs after interning there previously.",
+        "linkedin": "https://www.linkedin.com/in/vanessa-boey-420845136/"
+      },
+      {
+        "name": "Foo Wei Liang",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/FooWeiLiang.png",
+        "biography": "Wei Liang was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy. Wei Liang is currently an associate an assistant manager at PwC. ",
+        "linkedin": "https://www.linkedin.com/in/wei-liang-f-b23ab759/"
+      },
+      {
+        "name": "Tommy Phun",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/TommyPhun.png",
+        "biography": "Tommy was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Tommy is currently a director of business development at Eng Hup Shipping. He previously interned at Dampskibsselskabet NORDEN A/S.",
+        "linkedin": "https://www.linkedin.com/in/tommyphun/"
+      },
+      {
+        "name": "Shane Ai Changxun",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/ShaneAiChangxun.png",
+        "biography": "Shane was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Science (Economics). He is currently a cotton trader at Louis Dreyfus. He previously interned at Temasek Holdings, OCBC, and GAO Capital.",
+        "linkedin": "https://www.linkedin.com/in/shaneai/"
+      },
+      {
+        "name": "Melvin Seah",
+        "role": "Member",
+        "picture": "",
+        "biography": "Melvin was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Melvin is currently an associate director at Temasek Holdings. He previously interned in the investment banking division of Rothschild.",
+        "linkedin": "https://www.linkedin.com/in/melvin-seah-a1762bb6/"
+      },
+      {
+        "name": "Debbie Yeo",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/DebbieYeo.png",
+        "biography": "Debbie was a member of SMU-SMIF during her time at SMU. She graduated with a Bachelor of Accountancy. Debbie is currently a vice president of TD Ameritrade's global equity derivatives division. She previously interned at Citi, TD Ameritrade, and Titan Capital.",
+        "linkedin": "https://www.linkedin.com/in/debbie-yeo-78812965/"
+      },
+      {
+        "name": "Linyan Seet",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/LinyanSeet.png",
+        "biography": "Linyan was a member of SMU-SMIF during her time at SMU. She graduated with a Bachelor of Business Management. Linyan is currently an account manager at Google's cloud division. She previously had investment banking internships at Credit Suisse and Citi.",
+        "linkedin": "https://www.linkedin.com/in/linyanseet/"
+      },
+      {
+        "name": "Adwyn Chong",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/AdwynChong.png",
+        "biography": "Adwyn was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Adwyn is currently an associate at Baring Private Equity Asia. He previously worked in the investment banking division of BofA Merrill Lynch after interning there.",
+        "linkedin": "https://www.linkedin.com/in/adwyn-chong-257a4547/"
+      },
+      {
+        "name": "Rahul Nadkarni",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2010/RahulNadkarni.png",
+        "biography": "Rahul was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Rahul is currently an associate at Verlinvest. He previously had investment banking internships at Citi and UBS.",
+        "linkedin": "https://www.linkedin.com/in/rahul-nadkarni-75348139/"
+      }
+    ]
+  },
+  "2011": {
+    "header": "Class of 2011",
+    "profiles": [
+      {
+        "name": "Ho Jun Yi ",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2011/HoJunYi.png",
+        "biography": "Jun Yi was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Jun Yi is the co-founder of icomms ICO Advisory. He previously worked as an associate at Sea.",
+        "linkedin": "https://www.linkedin.com/in/hojunyi90/"
+      },
+      {
+        "name": "Tay Jia Min",
+        "role": "Member",
+        "picture": "",
+        "biography": "Jia Min was a member of SMU-SMIF during her time at SMU. She graduated with a Bachelor of Business Management. Jia Min currently works in institutional sales at Societe Generale. She previously interned in the debt capital markets division of UBS. ",
+        "linkedin": "https://www.linkedin.com/in/tayjiamin/"
+      },
+      {
+        "name": "Ang Weihao",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2011/AngWeihao.png",
+        "biography": "Weihao was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor in Accounting and Finance. Weihao currently works as a regional treasury and tax executive at Bollore Transport & Logistics. He previously interned at Banyan Tree Hotels & Resorts",
+        "linkedin": "https://www.linkedin.com/in/weihao-ang-12684a59/"
+      },
+      {
+        "name": "Chew Wee Leng",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2011/ChewWeeLeng.png",
+        "biography": "Wee Leng was a member of SMU-SMIF during her time at SMU. She graduated with a Double Degree in Accountancy and Business. Wee Leng is currently a investment banking analyst at Evercore. She previously had interned at Macquarie Group.",
+        "linkedin": "https://www.linkedin.com/in/chewweeleng/"
+      },
+      {
+        "name": "Ng Ying Neng",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2011/NgYingNeng.png",
+        "biography": "Ying Neng was a member of SMU-SMIF during his time at SMU. He is currently an investment banking analyst at Morgan Stanley. Ying Neng previously interned at Temasek Holdings, BNP Paribas, and Standard Chartered.",
+        "linkedin": "https://www.linkedin.com/in/ying-neng-ng-0b013491/"
+      },
+      {
+        "name": "Jay Ng",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2011/JayNg.png",
+        "biography": "Jay was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Jay is currently a senior associate at Teko Ventures. He was formerly a project manager at Garena and an investment banking analyst at Deutsche Bank.",
+        "linkedin": "https://www.linkedin.com/in/ngjay/"
+      },
+      {
+        "name": "Calvin Lim",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2011/CalvinLim.png",
+        "biography": "Calvin was a member of SMU-SMIF during his time at SMU. He graudated with a Bachelor of Business Management. Calvin is currently a senior investment associate at Cambridge Associates. He previously interned in M&A at Standard Chartered and Corporate Development at JPMorgan.",
+        "linkedin": "https://www.linkedin.com/in/calvinlimwq/"
+      },
+      {
+        "name": "Jerald Soon",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2011/JeraldSoon.png",
+        "biography": "Jerald was a member of SMU-SMIF during his time at SMU. He is currently a associate at Allen & Gledhill LLP working in the M&A division.",
+        "linkedin": "https://www.linkedin.com/in/jeraldsoon/"
+      },
+      {
+        "name": "Jonathan Tang",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2011/JonathanTang.png",
+        "biography": "Jonathan was a member of SMU-SMIF during his time at SMU. He is currently an associate in the Strategic Products Group, Capital Struturing & Advisory at ING. He previously worked as an associate in the leveraged finance division at Standard Chartered after interning there.",
+        "linkedin": "https://www.linkedin.com/in/jonathan-tang-19269659/"
+      },
+      {
+        "name": "Mak Wei Yang",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2011/MakWeiYang.png",
+        "biography": "Wei Yang was a member of SMU-SMIF during his time at SMU. He gradauted with a Bachelor of Business Administration. Wei Yang  is currently a senior associate at PwC. He previously interned at Ernst & Young's corporate finance division.",
+        "linkedin": "https://www.linkedin.com/in/wei-yang-mak-b7856262/"
+      },
+      {
+        "name": "Lee Lin Ze",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2011/LeeLinZe.png",
+        "biography": "Lin Ze was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy. Lin Ze is currently an investment banking analyst at Evercore. He previousy interned at Credit Suisse's investment banking division.",
+        "linkedin": "https://www.linkedin.com/in/leelinze/"
+      },
+      {
+        "name": "Tan Yu Ling (Eileen)",
+        "role": "Member",
+        "picture": "",
+        "biography": "Eileen was a member of SMU-SMIF during her time at SMU. She graduated with a Bachelof of Science in Economics and Finance. Eileen is currently working in investment banking at BofA Merrill Lynch after interning there.",
+        "linkedin": "https://www.linkedin.com/in/tan-yu-ling-eileen-a409994b/"
+      },
+      {
+        "name": "Seah Yiyuan (Caleb)",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2011/SeahYiyuanCaleb.png",
+        "biography": "Caleb was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Caleb is curently an investment analyst at Allianz Real Estate. He previously interned at Standard Chartered in their commercial real estate investment banking division. ",
+        "linkedin": "https://www.linkedin.com/in/caleb-seah-yiyuan-8aa73032/"
+      },
+      {
+        "name": "Onson Li ",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2011/OnsonLi.png",
+        "biography": "Onson was a member of SMU-SMIF during his time at SMU. He graduated with a Double Degree in Accountancy and Business Management. Onson currently works in the metals trading division at Cargill. He was previously an associate at GIC. ",
+        "linkedin": "https://www.linkedin.com/in/onson-li-37588159/"
+      }
+    ]
+  },
+  "2012": {
+    "header": "Class of 2012",
+    "profiles": [
+      {
+        "name": "Yeo Shan Rui",
+        "role": "President",
+        "picture": "",
+        "biography": "Shan Rui was the President of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Economics. Shan Rui is currently an equity analyst at New Silk Road Investment, a long-only, Asian-focused, value-driven hedge fund. Shan Rui previously had internships at Eastspring Investments and Seatown Holdings.",
+        "linkedin": "https://www.linkedin.com/in/yeo-shan-rui-4a564051/"
+      },
+      {
+        "name": "Vincent Bai",
+        "role": "Sector Head",
+        "picture": "",
+        "biography": "Vincent was the Financials Sector Head for SMIF during his time at SMU. He currently manages Acre Capital, a family office. Vincent previously worked at BNP Paribas, Macquarie Capital, and had internships at Temasek Holdings and Standard Chartered.",
+        "linkedin": "https://www.linkedin.com/in/vincent-bai-003b4465/"
+      },
+      {
+        "name": "Lee Jie Yang",
+        "role": "Sector Head",
+        "picture": "/assets/images/team/profiles/2012/LeeJieYang.png",
+        "biography": "Jie Yang was Sector Head of Macroeconomics and Strategy during his time at SMU. He graduated with a Bachelor of Business Management and a Bachelor of Science (Economics). Jie Yang is curently an analyst at GAO Capital. He previously interned at Flowering Tree Investment Management and Fidelity Worldwide Investment. ",
+        "linkedin": "https://www.linkedin.com/in/xiaominchen/"
+      },
+      {
+        "name": "Gan Zhang Quan",
+        "role": "Sector Head",
+        "picture": "/assets/images/team/profiles/2012/GanZhangQuan.png",
+        "biography": "Zhang Quan was the Industrials Sector Head for SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Zhang Quan is currently a Manager at Helicap. He previously worked at Enterprise Singapore and Dymon Asia Capital.",
+        "linkedin": "https://www.linkedin.com/in/zhang-quan-gan-39a65466/"
+      },
+      {
+        "name": "Krystal Chew",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2012/KrystalChew.png",
+        "biography": "Krystal was a member of SMU-SMIF during her time at SMU. She graduated with a Bachelor in Business Management. Krystal currently works as a private banker at Credit Suisse. She previously had internships in Standard Chartered and BNP Paribas. ",
+        "linkedin": "https://www.linkedin.com/in/krystal-chew-09121967/"
+      },
+      {
+        "name": "Chen Xiaomin",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2012/ChenXiaomin.png",
+        "biography": "Xiaomin was a member of SMU-SMIF during her time at SMU. She graduated with a Double Degree in Accountancy and Business Management. Xiaomin is currently an investment banking associate at Credit Suisse. She previously had investment banking internships at Credit Suisse and Standard Chartered.",
+        "linkedin": "https://www.linkedin.com/in/xiaominchen/"
+      },
+      {
+        "name": "Goh Zhi Cheng",
+        "role": "Member",
+        "picture": "",
+        "biography": "Zhi Cheng was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Zhi Cheng is currently working in investment banking at JPMorgan. He previously worked in Investments at Temasek Holdings after interning there. Additionally, he also interned in the investment banking division in Standard Chartered.",
+        "linkedin": "https://www.linkedin.com/in/zhi-cheng-goh/"
+      },
+      {
+        "name": "Mak Li Yun",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2012/MakLiYun.png",
+        "biography": "Li Yun was a member of SMU-SMIF during her time at SMU. She graduated with a Bachelor of Business Management. Li Yun currently works as a data analyst at Grab and previously interned at Google.",
+        "linkedin": "https://www.linkedin.com/in/makliyun/"
+      },
+      {
+        "name": "Tan Yean Sheen",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2012/TanYeanSheen.png",
+        "biography": "Yean Sheen was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Yean Sheen currently works as an associate in Global Markets at HSBC. He previously had internships at Morgan Stanley and Citi.",
+        "linkedin": "https://www.linkedin.com/in/yean-sheen-tan-35319582/"
+      },
+      {
+        "name": "Toh Beng How",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2012/TohBengHow.png",
+        "biography": "Beng How was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Science (Economics). Beng How is currently a senior consultant at Oliver Wyman. He previously interned at Clifford Capital, Silver Rose Capital Partners, and Singapore Economic Development Board.",
+        "linkedin": "https://www.linkedin.com/in/beng-how-toh-89510b58/"
+      },
+      {
+        "name": "Daphne Tay Yi Ling",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2012/DaphneTayYiLing.png",
+        "biography": "Daphne was a member of SMU-SMIF during her time at SMU. She graduated with a Bachelor of Business Management. Daphne is currently a consultant at Bain & Company after interning there. She also had internships at RBC and SPRING Singapore.",
+        "linkedin": "https://www.linkedin.com/in/daphnetay/"
+      },
+      {
+        "name": "Tay Wen Hao",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2012/TayWenHao.png",
+        "biography": "Wen Hao was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Science (Economics) and a Bachelor of Business Management (Finance). Wen Hao is currently an investment analyst at Mercer. He previously interned at Metisq Capital.",
+        "linkedin": "https://www.linkedin.com/in/taywenhao/"
+      },
+      {
+        "name": "Chong Shyang Long",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2012/ChongShyangLong.png",
+        "biography": "Shyang Long was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management (Finance) and a Bachelor of Science (Economics). Shyang Long is currently a private equity associate at Allianz. He previously had a private equity internship at Hermes GPE and an investment banking internship at Morgan Stanley.",
+        "linkedin": "https://www.linkedin.com/in/shyanglong/"
+      },
+      {
+        "name": "Brenda Lee Shu Ting",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2012/BrendaLeeShuTing.png",
+        "biography": "Brenda was a member of SMU-SMIF during her time at SMU. She graduated with a Bachelor of Economics and Finance. Brenda is currently an analyst at Gateway Partners. She previously had a private equity internship at Hera Capital.",
+        "linkedin": "https://www.linkedin.com/in/brenda-lee-a8926447/"
+      },
+      {
+        "name": "Luke Ng Chen Xuan",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2012/LukeNgChenXuan.png",
+        "biography": "Luke was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Businesss Management and a Bachelor of Science (Economics). Luke is currently a investment banking associate at Barclays. He previously interned at Seatown Holdings.",
+        "linkedin": "https://www.linkedin.com/in/luke-ng-chen-xuan-4244255b/"
+      },
+      {
+        "name": "Sharon Yeo Qian Ling",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2012/SharonYeoQianLing.png",
+        "biography": "Sharon was a member of SMU-SMIF during her time at SMU. She graduated with a Bachelor of Business Management. Sharon is the co-founder of TalentTribe Asia, a career exploration and development platform. She previously had interned at Bain & Company.",
+        "linkedin": "https://www.linkedin.com/in/sharonyeosg/"
+      },
+      {
+        "name": "Srishti Lodha",
+        "role": "Member",
+        "picture": "",
+        "biography": "Srishti was a member of SMU-SMIF during her time at SMU. She graduated with a Bachelor of Business Management. Srishti is currently a investment banking analyst at JPMorgan. She previously interned in the investment banking division of Standard Chartered.",
+        "linkedin": "https://www.linkedin.com/in/srishti-lodha-01892482/"
+      },
+      {
+        "name": "Lim Kun Yi",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2012/LimKunYi.png",
+        "biography": "Kun Yi was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Administration. Kun Yi is currently a senior associate in the corporate finance division of Grab. He previously worked as an investment banking analyst at Standard Chartered after interning there.",
+        "linkedin": "https://www.linkedin.com/in/lim-kun-yi-13b23a68/"
+      },
+      {
+        "name": "Jessie Tang Yun Jie",
+        "role": "Member",
+        "picture": "/assets/images/team/profiles/2012/JessieTangYunJie.png",
+        "biography": "Jessie was a member of SMU-SMIF during her time at SMU. She graduated with a Bachelor of Accountancy. Jessie is currently an associate analyst at Moody's. She previoously interned in the debt capital markets division of UBS and in equity research at Corecam Family Office.",
+        "linkedin": "https://www.linkedin.com/in/jessie-tang-yun-jie/"
+      },
+      {
+        "name": "Lim Hui Ling",
+        "role": "Member",
+        "picture": "",
+        "biography": "Hui Ling was a member of SMU-SMIF during her time at SMU. She graduated with a Bachelor of Business Management. Hui Ling is currently an associate investment advisor at Deutsche Bank after interning there. She previously interned in equity research at Citi.",
+        "linkedin": "https://www.linkedin.com/in/lim-hui-ling-29722767/"
+      }
+    ]
+  },
+  "2013": {
+    "header": "Class of 2013",
     "profiles": [
       {
         "name": "Sebastian Seow",
         "role": "President",
-        "picture": "/assets/images/team/profiles/2017/SebastianSeow.png",
+        "picture": "/assets/images/team/profiles/2013/SebastianSeow.png",
         "biography": "Sebastian was President of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Sebastian currently works as an investment banking analyst at Credit Suisse. He previously interned at Credit Suisse and Standard Chartered in their respective investment banking divisions.",
         "linkedin": "https://www.linkedin.com/in/sebastianseowweihan/"
       },
       {
         "name": "Charles Phan",
-        "role": "Vice President",
-        "picture": "/assets/images/team/profiles/2017/CharlesPhan.png",
+        "role": "Vice-President",
+        "picture": "/assets/images/team/profiles/2013/CharlesPhan.png",
         "biography": "Charles was Vice President for SMU-SMIF during his time at SMU. He graduated with a Bachelor of Economics. Charles is currently a M&A associate at KPMG. He previously interned at Huttons Real Estate, American Express, and Wellington Management.",
         "linkedin": "https://www.linkedin.com/in/charles-phan/"
       },
       {
         "name": "Jayme Kwek",
-        "role": "Vice President",
-        "picture": "/assets/images/team/profiles/2017/JaymeKwek.png",
+        "role": "Vice-President",
+        "picture": "/assets/images/team/profiles/2013/JaymeKwek.png",
         "biography": "Jayme was Vice President of SMU-SMIF during his time at SMU. He graduated with a B.Sc, Economics & Finance. Jayme is currently an investment banking analyst at Credit Suisse. He previously worked at Deustche Bank as an investment banking analyst after interning there. He also had prior analyst positions at Apollo Global and Abacus Capital.",
         "linkedin": "https://www.linkedin.com/in/jayme-kwek-07819590/"
       },
       {
         "name": "Benjamin Tho",
         "role": "Sector Head",
-        "picture": "/assets/images/team/profiles/2017/BenjaminTho.png",
+        "picture": "/assets/images/team/profiles/2013/BenjaminTho.png",
         "biography": "Benjamin was Sector Head of Industrials for SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy. Benjamin is currently a Senior Associate of Investor Relations at Financial PR, a leading investor relations firm. He previously interned at GAO Capital, PIckering Pacific, and Seatown Holdings.",
         "linkedin": "https://www.linkedin.com/in/benjamintho/"
       },
       {
-        "name": "Irwin Goh",
+        "name": "Irwin Goh ",
         "role": "Sector Head",
-        "picture": "/assets/images/team/profiles/2017/IrwinGoh.png",
+        "picture": "/assets/images/team/profiles/2013/IrwinGoh.png",
         "biography": "Irwin was Sector Head of Consumers during his time at SMU-SMIF. He graduated with a Double Degree in Accountancy and Business Management. Irwin is currently doing busines development and M&A at Louis Dreyfus. He previously worked at Barclays as an investment banking analyst after interning there. He also had prior internships at Credence Investments and HSBC.",
         "linkedin": "https://www.linkedin.com/in/gohirwin/"
       },
       {
-        "name": "Neo You Yue (Paul)",
+        "name": "Neo You Yue (Paul) ",
         "role": "Sector Head",
-        "picture": "/assets/images/team/profiles/2017/NeoYouYuePaul.png",
+        "picture": "/assets/images/team/profiles/2013/NeoYouYuePaul.png",
         "biography": "Paul was Sector Head of Property & REITS for SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy. Paul is currently an investment banking analyst at TC Capital. He previously interned at Credence Investments.",
         "linkedin": "https://www.linkedin.com/in/you-yue-neo-paul-213866a4/"
       },
       {
         "name": "Amanda Teo",
         "role": "Member",
-        "picture": "/assets/images/team/profiles/2017/AmandaTeo.png",
+        "picture": "/assets/images/team/profiles/2013/AmandaTeo.png",
         "biography": "Amanda was a member of SMU-SMIF during her time at SMU. She graduated with a Double Degree in Accountancy and Business Management. She is currently a management consultant at McKinsey & Company. Amanda previously interned at McKinsey, DBS, Standard Chartered, and Deutsche Bank.",
         "linkedin": "https://www.linkedin.com/in/amanda-teo/"
       },
       {
         "name": "Chiang Ming Rui",
         "role": "Member",
-        "picture": "/assets/images/team/profiles/2017/ChiangMingRui.png",
+        "picture": "/assets/images/team/profiles/2013/ChiangMingRui.png",
         "biography": "Ming Rui was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Ming Rui is currently a Senior Associate at the Ministry of Finance (Singapore). He previously interned at Credence Investments, Temasek Holdings, and Seatown Holdings.",
         "linkedin": "https://www.linkedin.com/in/chiang-ming-rui-818a97b2/"
       },
@@ -68,94 +653,82 @@
       {
         "name": "Jason Ying",
         "role": "Member",
-        "picture": "/assets/images/team/profiles/2017/JasonYing.png",
+        "picture": "/assets/images/team/profiles/2013/JasonYing.png",
         "biography": "Jason was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Administration. Jason is currently a manager in the Group Strategic Investment arm of Singtel. He previously worked at Standard Chartered Bank, after interning there as in the investment banking division. He also interned at GAO Capital.",
         "linkedin": "https://www.linkedin.com/in/jason-ying-7a496264/"
       },
       {
         "name": "Melvin Singh",
         "role": "Member",
-        "picture": "/assets/images/team/profiles/2017/MelvinSingh.png",
+        "picture": "/assets/images/team/profiles/2013/MelvinSingh.png",
         "biography": "Melvin was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy. Melvin is currently doing Audit & Assurance at PwC. He previously interned in the corporate advisory division of Baker Tilly TFW.",
         "linkedin": "https://www.linkedin.com/in/melvin-paul-singh-b83b3890/"
       },
       {
         "name": "Nigel Koh",
         "role": "Member",
-        "picture": "/assets/images/team/profiles/2017/NigelKoh.png",
+        "picture": "/assets/images/team/profiles/2013/NigelKoh.png",
         "biography": "Nigel was a member of SMU-SMIF during his time at SMU. He graduated with a Double Degree in Accountancy and Business Management. Nigel is currently a consultant at FTI Consulting. He previously interned at KPMG, UOB, and Ernst & Young.",
         "linkedin": "https://www.linkedin.com/in/nigelkohrq/"
       },
       {
         "name": "Pei Ting Lian",
         "role": "Member",
-        "picture": "/assets/images/team/profiles/2017/PeiTingLian.png",
+        "picture": "/assets/images/team/profiles/2013/PeiTingLian.png",
         "biography": "Pei Ting was a member of SMU-SMIF during her time at SMU. She graduated with a Bachelor of Economics. Pei Ting is currently an associate analyst at Mastercard. She previously interned at KPMG and Singapore Economic Development Board. ",
         "linkedin": "https://www.linkedin.com/in/pei-ting-lian-a7a77884/"
       },
       {
         "name": "Prashant Dadlani",
         "role": "Member",
-        "picture": "/assets/images/team/profiles/2017/PrashantDadlani.png",
+        "picture": "/assets/images/team/profiles/2013/PrashantDadlani.png",
         "biography": "Prashant was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. He is the founder/CEO of blu, a Singapore-based start-up specializing in retail technology and logistics. He previously interned at Aviva.",
         "linkedin": "https://www.linkedin.com/in/prashantdadlani/"
       },
       {
         "name": "Ronald Neo",
         "role": "Member",
-        "picture": "/assets/images/team/profiles/2017/RonaldNeo.png",
+        "picture": "/assets/images/team/profiles/2013/RonaldNeo.png",
         "biography": "Ronald was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy. Ronald is currently a global capital markets analyst at Morgan Stanley. He previously interned at DBS Bank as a debt capital markets summer analyst.",
         "linkedin": "https://www.linkedin.com/in/ronaldneo/"
       },
       {
         "name": "Cheong Wen Quan",
         "role": "Member",
-        "picture": "/assets/images/team/profiles/2017/CheongWenQuan.png",
+        "picture": "/assets/images/team/profiles/2013/CheongWenQuan.png",
         "biography": "Wen Quan was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Administration. Wen Quan currently works as an equity analyst at Mawer Investment Management. He previously interned at Seatown Holdings.",
         "linkedin": "https://www.linkedin.com/in/cheong-wen-quan-92048564/"
       },
       {
         "name": "Winston Ong",
         "role": "Member",
-        "picture": "/assets/images/team/profiles/2017/WinstonOng.png",
+        "picture": "/assets/images/team/profiles/2013/WinstonOng.png",
         "biography": "Winston was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. Winston is currently a consultant at Lydiant Interactive, a digital agency specializing in web development and analytics. He previously interned at Deustche Bank and Tokio Marine Asia.",
         "linkedin": "https://www.linkedin.com/in/winstonong/"
       },
       {
         "name": "Ai Xin",
         "role": "Member",
-        "picture": "/assets/images/team/profiles/2017/AiXin.png",
+        "picture": "/assets/images/team/profiles/2013/AiXin.png",
         "biography": "Ai Xin was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy. Ai Xin is currently a management associate at Sea Ltd, the holding company of Garena, Shopee, and AirPay. He previously interned at Seatown Holdings, Quadria Capital, GAO Capital, and Temasek Holdings.",
         "linkedin": "https://www.linkedin.com/in/aixinsingapore/"
       }
     ]
   },
-  "2012": {
-    "header": "Class of 2012",
-    "profiles": [
-      {
-        "name": "Edmund Tan",
-        "role": "Member",
-        "picture": "",
-        "biography": "Edmund was a member of SMU-SMIF during his time at SMU. He graduated with a Double Degree in Business Management & Economics. He is currently a Partner at Pareto Securities, an independent full-service investment bank. He previously worked at Reciprocus International as an M&A analyst, Dymon Asia as an investment analyst, Standard Chartered as an investment banking analyst, and Barclays as a global markets analyst.",
-        "linkedin": "https://www.linkedin.com/in/edmund-tan-65bb2a66/"
-      }
-    ]
-  },
-  "2010": {
-    "header": "Class of 2010",
+  "Others": {
+    "header": "Others",
     "profiles": [
       {
         "name": "Cipto Handoyo",
         "role": "Member",
-        "picture": "/assets/images/team/profiles/2010/CiptoHandoyo.png",
+        "picture": "/assets/images/team/profiles/others/CiptoHandoyo.png",
         "biography": "Cipto was a member of SMU-SMIF during his time at SMU. He is currently a Director at Druk Asia Private Limited, a travel and tour agency. Cipto previously worked as an equity analyst at Aberdeen Asset Management, and as an analyst at JPMorgan.",
         "linkedin": "https://www.linkedin.com/in/cipto/"
       },
       {
         "name": "David Chow",
         "role": "Member",
-        "picture": "/assets/images/team/profiles/2010/DavidChow.png",
+        "picture": "/assets/images/team/profiles/others/DavidChow.png",
         "biography": "David was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Accountancy and is currently an analyst at Azure Capital Pte Ltd, a hedge fund focusing on special situations and absolute returns in the small- and mid-cap space. David previously worked at Pheim Asset Management Pte Ltd as an Equities Research Intern, Aberdeen Asset Management Asia as a Fixed Income Intern, and at Pine Forest Capital Pte Ltd as an analyst.",
         "linkedin": "https://www.linkedin.com/in/david-chow-5a41233a/"
       },
@@ -165,6 +738,13 @@
         "picture": "",
         "biography": "George was a member of SMU-SMIF during his time at SMU. He graduated with a Bachelor of Business Management. He is currently an Associate Director at Brandes Investment Partners, a global value-focused asset manager. George previously worked as Vice President at JPMorgan Asset Management and interned at GE Healthcare.",
         "linkedin": "https://www.linkedin.com/in/georgekoh/"
+      },
+      {
+        "name": "Edmund Tan",
+        "role": "Member",
+        "picture": "",
+        "biography": "Edmund was a member of SMU-SMIF during his time at SMU. He graduated with a Double Degree in Business Management & Economics. He is currently a Partner at Pareto Securities, an independent full-service investment bank. He previously worked at Reciprocus International as an M&A analyst, Dymon Asia as an investment analyst, Standard Chartered as an investment banking analyst, and Barclays as a global markets analyst.",
+        "linkedin": "https://www.linkedin.com/in/edmund-tan-65bb2a66/"
       }
     ]
   }

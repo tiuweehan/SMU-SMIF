@@ -46,6 +46,8 @@ const useStyles = makeStyles((theme: Theme) =>
 interface Props {
   cohortData: CohortData;
   defaultExpanded: boolean;
+  isExpanded: boolean;
+  setIsExpanded: (shouldExpand: boolean) => void;
 }
 
 const CohortExpansionPanel: React.FC<Props> = (props) => {
