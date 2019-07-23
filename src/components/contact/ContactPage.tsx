@@ -23,7 +23,10 @@ const useStyles = makeStyles((theme: Theme) =>
     contactEmail: {
       color: '#b89788',
       fontSize: '30px',
-      fontWeight: 700
+      fontWeight: 700,
+    },
+    email: {
+      overflowX: 'scroll'
     }
   })
 );
@@ -61,7 +64,7 @@ const ContactPage: React.FC = () => {
         </Grid>
         &nbsp;
         <Grid item xs={12} className={classes.contactEmail}>
-          <Grid container justify='center' alignContent='center'>
+          <Grid container justify='center' alignContent='center' className={classes.email}>
             smusmif@sa.smu.edu.sg
           </Grid>
         </Grid>
