@@ -3,6 +3,7 @@ import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
 import LineBreak from 'components/utils/LineBreak';
 import SharedLayout from 'components/shared/SharedLayout';
+import Image from 'components/shared/Image';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -89,10 +90,11 @@ const InvestmentsPage: React.FC = () => {
           </Grid>
         </Grid>
         <Grid item xs={12} md={4}>
-          <img
+          <Image
             src={`${process.env.PUBLIC_URL}/assets/images/investments/InvestmentApproachAndPhilosophy.jpg`}
             alt='investments'
             className={classes.investmentApproachAndPhilosophyImage}
+            transitionTime={100}
           />
         </Grid>
         <Grid item xs={12} md={4} spacing={2}>
@@ -124,10 +126,11 @@ const InvestmentsPage: React.FC = () => {
         ].map((coverage) => (
           <Grid item xs={12} sm={6} md={4} spacing={2} key={coverage.subHeader}>
             <Grid container className={classes.sectorCoverageBlock}>
-              <img
+              <Image
                 src={`${process.env.PUBLIC_URL}/assets/images/investments/${coverage.imageName}.jpg`}
                 alt={coverage.subHeader}
                 className={classes.investmentApproachAndPhilosophyImage}
+                transitionTime={100}
               />
               <Grid container justify='center' className={classes.sectorCoverageSubHeader}>
                 {coverage.subHeader}

@@ -3,8 +3,8 @@ import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
 import SharedLayout from 'components/shared/SharedLayout';
 import 'react-vertical-timeline-component/style.min.css';
-
 import WorkIcon from '@material-ui/icons/Work';
+import Image from 'components/shared/Image';
 
 // tslint:disable-next-line
 const { VerticalTimeline, VerticalTimelineElement } = require('react-vertical-timeline-component');
@@ -73,7 +73,7 @@ const AchievementsPage: React.FC = () => {
                 {picture !== '' && (
                   <>
                     <br />
-                    <img className={classes.picture} src={picture} />
+                    <Image className={classes.picture} src={picture} alt={'achievement'} transitionTime={100} />
                   </>
                 )}
                 <p>{description}</p>

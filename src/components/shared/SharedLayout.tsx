@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
+import Image from 'components/shared/Image';
 
 // tslint:disable-next-line
 const { Parallax, Background } = require('react-parallax');
@@ -69,7 +70,12 @@ const SharedLayout: React.FC<Props> = (props) => {
       <Grid className={classes.deepestLayer}>
         <Parallax strength={props.deep.parallaxStrength}>
           <Background>
-            <img src={props.deep.backgroundImage} className={classes.backgroundImage} alt='background' />
+            <Image
+              src={props.deep.backgroundImage}
+              className={classes.backgroundImage}
+              alt='background'
+              transitionTime={200}
+            />
           </Background>
           <Grid container className={classes.backgroundHeight} justify='center' alignItems='center'>
             <Grid item className={classes.title}>
