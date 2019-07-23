@@ -4,7 +4,7 @@ import { Grid } from '@material-ui/core';
 import SharedLayout from 'components/shared/SharedLayout';
 import 'react-vertical-timeline-component/style.min.css';
 
-import FavoriteIcon from '@material-ui/icons/Favorite';
+import WorkIcon from '@material-ui/icons/Work';
 
 // tslint:disable-next-line
 const { VerticalTimeline, VerticalTimelineElement } = require('react-vertical-timeline-component');
@@ -66,7 +66,7 @@ const AchievementsPage: React.FC = () => {
                 className='vertical-timeline-element--work'
                 date={date}
                 iconStyle={{ background: '#153587', color: '#fff' }}
-                icon={<FavoriteIcon />}
+                icon={<WorkIcon />}
               >
                 <h3 className='vertical-timeline-element-title'>{header}</h3>
                 <h4 className='vertical-timeline-element-subtitle'>{subheader}</h4>
